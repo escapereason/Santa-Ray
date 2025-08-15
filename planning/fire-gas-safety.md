@@ -12,7 +12,6 @@
 |----------|-------|----------|-----------|----------------|
 | **CRITICAL** | Missing CO detectors | Lower unit & in-law | $200-300 | Contractor/DIY |
 | **CRITICAL** | Crushed dryer vent | Lower unit in-law | $20-40 | DIY |
-| **CRITICAL** | Faulty GFCI outlets | Kitchen & Exterior | $200-300 | Contractor |
 
 ---
 
