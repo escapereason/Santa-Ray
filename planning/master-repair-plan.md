@@ -1,5 +1,19 @@
 # Santa Ray Avenue Property - Master Repair Plan
 
+## Table of Contents
+- [Executive Summary](#executive-summary)
+- [Priority Breakdown - Costs & Timeline](#priority-breakdown---costs--timeline)
+- [Category Cost Breakdown - By Work Type](#category-cost-breakdown---by-work-type)
+- [Critical Path Timeline](#critical-path-timeline)
+- [Critical Priority - Day 1 Fixes (Safety & Legal)](#critical-priority---day-1-fixes-safety--legal)
+- [High Priority - Week 1 (Prevent Further Damage)](#high-priority---week-1-prevent-further-damage)
+- [Medium Priority - Month 1 (Functionality & Comfort)](#medium-priority---month-1-functionality--comfort)
+- [Low Priority - As Budget Allows (Cosmetic & Upgrades)](#low-priority---as-budget-allows-cosmetic--upgrades)
+
+- [Contractor Requirements & Licenses](#contractor-requirements--licenses)
+- [Total Project Estimate - DIY vs Contractor Breakdown](#total-project-estimate---diy-vs-contractor-breakdown)
+- [Notes & Considerations](#notes--considerations)
+
 **Property:** 757 Santa Ray Avenue, Oakland, CA 94610  
 **Inspection Date:** July 21, 2025  
 **Inspector:** Brendt Mullan, ASHI #252508  
@@ -8,122 +22,230 @@
 
 ## EXECUTIVE SUMMARY
 
-### 🚨 CRITICAL DISCOVERY: EXTENSIVE FUNGUS DAMAGE
-The pest inspection revealed **$80,525 in critical fungus damage** throughout the property, dramatically increasing the total project scope from an estimated $11,000-23,800 to **$91,525-109,425**.
+### 🚨 CRITICAL DISCOVERIES: EXTENSIVE FUNGUS DAMAGE + PROPERTY TRANSFER REQUIREMENTS
+**REALISTIC ANALYSIS USING DIY APPROACH:** Using materials costs plus $25/hour labor provides a realistic project scope of **$87,000-113,000**. The initial pest inspection estimate of **$80,525** was closer to actual costs when using reasonable labor rates rather than high contractor markups. Detailed material analysis shows **$29,291 in lumber** plus **394 labor hours at $25/hour** for fungus remediation. **Updated tool analysis covers ALL DIY projects** for comprehensive cost planning.
 
 ### PROJECT OVERVIEW
-| **Total Project Cost** | **$91,525 - $109,425** |
+| **Total Project Cost** | **$87,000 - $113,000** |
 |------------------------|-------------------------|
+| **Initial Estimate** | **$108,815 - $119,800 (OVERESTIMATED)** |
 | **Total Timeline** | **4-6 months** |
 | **Critical Safety Issues** | **12 items requiring immediate attention** |
-| **Building Permits Required** | **$6,950 additional** |
+| **Property Transfer Requirements** | **$12,700 (sewer lateral + sidewalk compliance)** |
+| **Major Fungus Remediation** | **$46,211 (materials + $25/hr labor)** |
+| **Building Permits Required** | **$6,950 minimum** |
+| **Tools & Equipment** | **$2,000-12,100 (smart phasing vs full purchase)** |
+
+---
+
+## 📊 HIGH-LEVEL COST DISTRIBUTION
+
+### TOTAL PROJECT COST: $87,000 - $113,000
+
+```mermaid
+pie title Santa Ray Property Repair Costs
+    "Fungus Remediation" : 46211
+    "Property Transfer Compliance" : 12700
+    "Cosmetic & Upgrades" : 11750
+    "Tools & Equipment" : 7050
+    "Functionality & Comfort" : 5920
+    "Infrastructure Systems" : 5800
+    "DIY Safety Tasks" : 928
+```
+
+### COST BREAKDOWN DETAILS
+
+| Category | Amount | Percentage | Details |
+|----------|--------|------------|---------|
+| **🐛 Fungus Remediation** | $46,211 | 52.9% | Materials ($29,291) + Labor ($9,850) + Permits ($6,950) + TIM-BOR ($120) |
+| **🚨 Property Transfer** | $12,700 | 14.5% | Sewer Lateral ($6,900) + Sidewalk ADA ($5,800) |
+| **🎨 Cosmetic & Upgrades** | $11,750 | 13.5% | Cosmetic ($4,000) + Electrical Upgrades ($2,650) + Quality of Life ($3,150) + Appliances ($1,950) |
+| **🛠️ Tools & Equipment** | $7,050 | 7.5% | Smart phasing approach (universal + project-specific) |
+| **🏠 Functionality & Comfort** | $5,920 | 6.8% | Interior ($3,250) + Exterior ($903) + Services ($950) + DIY Interior ($650) + DIY Exterior ($53) |
+| **🔧 Infrastructure Systems** | $5,800 | 6.6% | HVAC ($1,830) + Plumbing ($1,470) + Electrical ($483) + Critical Repairs ($450) + DIY Tasks ($30) |
+| **💧 DIY Safety Tasks** | $928 | 1.1% | Electrical ($113) + Fire/Gas ($45) + Plumbing ($45) + HVAC ($30) + Critical Repairs ($450) + Interior ($150) + Exterior ($53) |
+
+**📋 For detailed cost analysis see:** [Detailed Cost Breakdown](./detailed-cost-breakdown.md)
 
 ---
 
 ## PRIORITY BREAKDOWN - COSTS & TIMELINE
 
-### 🔴 CRITICAL PRIORITY (Days 1-3)
-**Cost:** $1,600 - $2,600 | **Duration:** 3 days | **Can't delay**
-- Electrical safety hazards
-- Fire & gas safety (CO detectors, GFCI)  
-- Water damage prevention
+This section provides a high-level overview of repair priorities, estimated costs, and timelines. For detailed scope and specific tasks within each priority, please refer to the dedicated sections below:
+- [Critical Priority - Day 1 Fixes (Safety & Legal)](#critical-priority---day-1-fixes-safety--legal)
+- [High Priority - Week 1 (Prevent Further Damage)](#high-priority---week-1-prevent-further-damage)
+- [Medium Priority - Month 1 (Functionality & Comfort)](#medium-priority---month-1-functionality--comfort)
+- [Low Priority - As Budget Allows (Cosmetic & Upgrades)](#low-priority---as-budget-allows-cosmetic--upgrades)
 
-### 🟠 HIGH PRIORITY - FUNGUS REMEDIATION (Days 4-30)
-**Cost:** $80,525 + $6,950 permits = $87,475 | **Duration:** 30 days | **Must complete before winter**
-- Section I fungus damage (12 critical items)
-- Front porch, carport, decks, windows, doors
-- Licensed pest control operator required
-
-### 🟡 HIGH PRIORITY - OTHER SYSTEMS (Weeks 2-4)  
-**Cost:** $3,400 - $7,700 | **Duration:** 2-3 weeks | **Can overlap with fungus work**
-- HVAC repairs and ventilation
-- Plumbing infrastructure updates
-- Moisture investigation and drainage
-
-### 🟢 MEDIUM PRIORITY (Month 1-2)
-**Cost:** $2,500 - $5,500 | **Duration:** 3-4 weeks | **Functionality & comfort**
-- Interior appliance repairs
-- Exterior grading and drainage
-- Door/window functionality
-
-### 🔵 LOW PRIORITY (As Budget Allows)
-**Cost:** $3,500 - $8,000 | **Duration:** 6-12 months | **Cosmetic improvements**
-- Floor refinishing and paint
-- Electrical upgrades
-- Convenience improvements
+| Priority Level | Estimated Cost | Estimated Duration | Key Focus Areas |
+|----------------|----------------|--------------------|-----------------|
+| 🔴 **Critical** | $13,590 - $14,525 | 5-7 days | Property transfer compliance (sewer lateral, sidewalk), immediate safety hazards (electrical, fire/gas, water damage prevention) |
+| 🟠 **High - Fungus Remediation** | $46,211 (incl. permits) | 30-45 days | Section I fungus damage remediation using $25/hr labor + materials across 13 locations |
+| 🟡 **High - Other Systems** | $3,900 - $7,700 | 2-3 weeks | HVAC, plumbing infrastructure, and moisture investigation |
+| 🟢 **Medium** | $3,670 - $8,170 | 3-4 weeks | Functionality and comfort improvements (interior appliances, exterior drainage, door/window functionality) |
+| 🔵 **Low** | $8,500 - $15,000 | 6-12 months | Cosmetic improvements and non-essential upgrades |
+| 🛠️ **Tools** | $2,000 - $12,100 | N/A | Smart phasing vs comprehensive purchase |
 
 ---
 
-## CATEGORY COST BREAKDOWN
+## CATEGORY COST BREAKDOWN - BY WORK TYPE
 
-| Category | Cost Range | Duration | Priority | Details |
-|----------|------------|----------|----------|---------|
-| **🐛 Pest/Fungus Remediation** | $80,525 + permits | 30 days | 🔴 | [Details](./fungus-water-damage-specifications.md) |
-| **⚡ Electrical Safety** | $800 - $1,200 | 1-2 days | 🔴 | [Details](./electrical-repairs.md) |
-| **🔥 Fire/Gas Safety** | $500 - $800 | 1 day | 🔴 | [Details](./fire-gas-safety.md) |
-| **💧 Plumbing Critical** | $300 - $600 | 1 day | 🔴 | [Details](./plumbing-repairs.md) |
-| **🔧 HVAC Systems** | $800 - $1,500 | 3-5 days | 🔴 🟡 | [Details](./hvac-repairs.md) |
-| **💧 Plumbing Infrastructure** | $600 - $1,200 | 3-5 days | 🟡 | [Details](./plumbing-repairs.md) |
-| **🏠 Interior Functionality** | $1,500 - $3,000 | 2-3 weeks | 🟢 |         |
-| **🌊 Exterior/Drainage** | $1,000 - $2,500 | 2-3 weeks | 🟢 |         |
-| **🎨 Cosmetic Improvements** | $2,000 - $5,000 | 2-4 months | 🔵 |         |
-| **⚡ Electrical Upgrades** | $1,500 - $3,000 | 1-2 weeks | 🔵 |         |
+| Category | Cost Range | Duration | Priority |
+|----------|------------|----------|----------|
+| [**🚨 Sewer Lateral Contractor**](./contractor/sewer-lateral-contractor.md) | $6,900 | 2 days | 🔴 |
+| [**🚨 Sidewalk Repairs Contractor**](./contractor/sidewalk-repairs-contractor.md) | $5,800 | 2-3 days | 🔴 |
+| [**⚡ Electrical DIY**](./diy/electrical-repairs-diy.md) | $60 - $165 | 1-2 days | 🔴 |
+| [**⚡ Electrical Contractor**](./contractor/electrical-repairs-contractor.md) | $1,750 - $4,200 | 1-2 weeks | 🔴 🔵 |
+| [**🔥 Fire/Gas Safety DIY**](./diy/fire-gas-safety-diy.md) | $30 - $60 | 1 day | 🔴 |
+| [**💧 Plumbing DIY**](./diy/plumbing-repairs-diy.md) | $30 - $60 | 1 day | 🟢 |
+| [**💧 Plumbing Contractor**](./contractor/plumbing-repairs-contractor.md) | $1,050 - $2,100 | 3-5 days | 🔴 🟡 |
+| [**🔧 HVAC DIY**](./diy/hvac-repairs-diy.md) | $20 - $40 | 1 day | 🔴 |
+| [**🔧 HVAC Contractor**](./contractor/hvac-repairs-contractor.md) | $1,200 - $2,400 | 3-5 days | 🟡 |
+| [**🐛 Pest/Fungus Contractor**](./contractor/pest-fungus-remediation-contractor.md) | $46,211 (incl. permits) | 30-45 days | 🔴 |
+| [**🏠 Interior Functionality**](./diy/interior-functionality-diy.md) | $400 - $900 (DIY) + $1,500 - $3,000 (Contractor) | 2-3 weeks | 🟢 |
+| **🌊 Exterior/Drainage** | $35 - $70 (DIY) + $500 - $1,200 (Contractor) | 2-3 weeks | 🟢 |
+| **🎨 Cosmetic Improvements** | $2,000 - $5,000 | 2-4 months | 🔵 |
+| **🛠️ Tools & Equipment** | $6,100 - $9,900 (Purchase) / $1,500 - $3,000 (Rental) | N/A | 🟠 |
+
+---
+
+## 🛠️ TOOLS & EQUIPMENT REQUIREMENTS
+
+### CRITICAL TOOL DISCOVERY
+**Previous estimates did not account for $6,100-9,900 in specialized tools required for fungus remediation and structural repairs.**
+
+### TOOL COST BREAKDOWN BY CATEGORY
+**Total: $6,100 - $9,900 (Purchase) / $1,500 - $3,000 (Rental)**
+
+#### **⚡ DEMOLITION TOOLS** - $300-400
+- Reciprocating saw, pry bars, wire brushes, paint scrapers
+- **Essential for:** Fungus-damaged material removal
+
+#### **⚖️ STRUCTURAL SUPPORT** - $300-450 
+- Adjustable steel posts, house jacks, shims
+- **Critical for:** Safety during load-bearing repairs
+
+#### **🔍 ASSESSMENT TOOLS** - $100-200
+- **Moisture meter** (ESSENTIAL for TIM-BOR application)
+- Flashlight, inspection tools
+- **Required for:** Verify wood condition before treatment
+
+#### **⚙️ POWER TOOLS** - $400-600
+- Cordless drill/driver, impact driver, circular saw
+- **Essential for:** All structural work
+
+#### **📐 MEASUREMENT TOOLS** - $200-300
+- Tape measures, speed squares, levels
+- **Essential for:** Precision structural repairs
+
+#### **🔧 HAND TOOLS** - $400-600
+- Hammers, chisels, block plane, clamps
+- **Essential for:** Detail work and finishing
+
+#### **🧪 CHEMICAL APPLICATION** - $200-300
+- TIM-BOR spraying equipment, safety gear
+- **Required by law:** Licensed pest control operator use
+
+### PURCHASE vs RENTAL ANALYSIS
+
+#### **PURCHASE RECOMMENDATION ($6,100-9,900):**
+**Pros:**
+- Permanent ownership for future maintenance
+- No rental time limitations during 30-45 day project
+- Quality tools maintain property value
+- Can be used for ongoing maintenance
+
+**Cons:**
+- Higher upfront investment
+- Storage requirements
+- Tool maintenance responsibility
+
+#### **RENTAL OPTION ($1,500-3,000):**
+**Pros:**
+- Lower initial cost
+- No storage needed
+- Always latest models
+- Maintenance included
+
+**Cons:**
+- Time pressure during project
+- Availability constraints
+- No long-term asset value
+- Daily/weekly rental costs accumulate
+
+### TOOL ACQUISITION STRATEGY
+**Recommended approach:**
+1. **Purchase essential hand tools** ($800-1,200) - permanent value
+2. **Rent specialized power tools** ($700-1,800) - short-term use
+3. **Chemical equipment** - Contractor provides (included in pest control costs)
+
+**Hybrid Cost: $1,500-3,000** (significant savings vs. full purchase)
 
 ---
 
 ## CRITICAL PATH TIMELINE
 
-### **PHASE 1: IMMEDIATE SAFETY (Days 1-3)**
-- **Must complete first** - No dependencies
-- All electrical, fire, gas, and water emergencies
-- **Cost:** $1,600 - $2,600
+This timeline outlines the sequential phases of the repair project, emphasizing critical dependencies. For a detailed breakdown of tasks within each phase, refer to the [Project Execution Strategy](#project-execution-strategy) section.
 
-### **PHASE 2: MAJOR FUNGUS REMEDIATION (Days 4-30)**  
-- **Building permits required first** (Days 4-7)
-- Licensed pest control operator coordination
-- **Cost:** $87,475 (includes permits)
-
-### **PHASE 3: INFRASTRUCTURE (Weeks 3-6)**
-- HVAC and plumbing system repairs
-- Can overlap with final fungus remediation work
-- **Cost:** $3,400 - $7,700
-
-### **PHASE 4: FUNCTIONALITY & COMFORT (Months 2-3)**
-- Interior repairs and exterior improvements  
-- **Cost:** $2,500 - $5,500
-
-### **PHASE 5: QUALITY OF LIFE (Months 4-12)**
-- Cosmetic improvements as budget allows
-- **Cost:** $3,500 - $8,000
+| Phase | Description | Estimated Duration | Estimated Cost | Key Dependencies |
+|-------|-------------|--------------------|----------------|------------------|
+| **1: Property Transfer Compliance** | Complete sewer lateral replacement and sidewalk ADA compliance repairs. | Days 1-5 | $12,700 | Must complete before close of escrow |
+| **2: Immediate Safety** | Address all critical electrical, fire/gas, and water emergencies. | Days 1-3 | $1,600 - $2,600 | Can run parallel with Phase 1 |
+| **3: Major Fungus Remediation** | Comprehensive remediation of Section I fungus damage, including structural repairs. | Days 6-45 | $46,211 (incl. permits) | Building permits required (Days 6-10) |
+| **4: Infrastructure** | Repair and upgrade HVAC and plumbing systems. | Weeks 4-7 | $3,400 - $7,700 | Can overlap with final fungus remediation work |
+| **5: Functionality & Comfort** | Address interior repairs, exterior improvements, and general functionality. | Months 2-3 | $2,500 - $5,500 | Follows infrastructure work |
+| **6: Quality of Life** | Cosmetic improvements and non-essential upgrades. | Months 4-12 | $3,500 - $8,000 | As budget allows |
 
 ---
 
 ## CRITICAL PRIORITY - DAY 1 FIXES (SAFETY & LEGAL)
 
+### 🚨 PROPERTY TRANSFER COMPLIANCE - MANDATORY BEFORE SALE
+**Urgency:** CRITICAL - Required before close of escrow  
+**Total Estimated Cost:** $12,700 (Challenge Rooter - Estimates #6296 & #6297)
+
+**Sewer Lateral Compliance** - See [Sewer Lateral Contractor Plan](./contractor/sewer-lateral-contractor.md):
+- Complete sewer lateral replacement (~50ft HDPE piping) - $6,900
+- EBMUD compliance test and certification included
+- All permits and inspection fees included
+- **Timeline:** 2 days
+- **Trigger:** EBMUD Regional PSL Ordinance - required for property transfer
+
+**Sidewalk Compliance** - See [Sidewalk Repairs Contractor Plan](./contractor/sidewalk-repairs-contractor.md):
+- Replace 28ft x 4ft concrete (112 sq ft) for ADA compliance - $5,800
+- Eliminate trip hazards exceeding ¼" requirements
+- City of Oakland compliance certificate included
+- **Timeline:** 2-3 days
+- **Trigger:** Oakland Municipal Code Chapter 12.04.380 - required for property transfer
+
+**Dependencies:** Both must be completed before property title transfer
+
 ### 🚨 Electrical Safety Hazards
 **Urgency:** CRITICAL - Fix immediately  
-**Total Estimated Cost:** $800-1,200
+**Total Estimated Cost:** $60-165 (DIY) + $250-400 (Contractor) = $310-565
 
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Missing receptacle cover plates | Upper unit kitchen sink cabinet, Lower unit right rear bedroom closet | Replace missing cover plates | Licensed Electrician | $50-100 |
-| Damaged receptacle | Upper unit dining room | Replace damaged receptacle | Licensed Electrician | $150-250 |
-| Open electrical subpanel holes | Lower unit in-law closet electrical subpanel | Install approved snap-in filler plates | Licensed Electrician | $100-150 |
-| Uncovered junction box | Attic | Install approved cover plate | Licensed Electrician | $75-125 |
-| Loose subpanel wiring | Upper unit electrical subpanel | Install approved connector clamps | Licensed Electrician | $150-250 |
-| Exposed unprotected wiring | Utility room lower floor, stairwell | Replace with BX/MC armored cable | Licensed Electrician | $300-500 |
+**DIY Tasks** - See [Electrical DIY Plan](./diy/electrical-repairs-diy.md):
+- Missing receptacle cover plates - $5-10
+- Damaged receptacle replacement - $10-20  
+- Uncovered junction box cover - $5-15
+- Exposed wiring protection - $25-75
+- Faulty GFCI outlet replacement - $20-40
+
+**Contractor Tasks** - See [Electrical Contractor Plan](./contractor/electrical-repairs-contractor.md):
+- Open electrical subpanel holes - $100-150
+- Loose subpanel wiring - $150-250
 
 **Dependencies:** None - can be done immediately
 
 ### 🚨 Fire & Gas Safety
 **Urgency:** CRITICAL - Fix immediately  
-**Total Estimated Cost:** $500-800
+**Total Estimated Cost:** $30-60 (DIY Only)
 
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Missing CO detectors | Lower unit and in-law | Install carbon monoxide detectors (legally required) | Licensed Electrician | $200-300 |
-| Crushed dryer vent | Lower unit in-law | Repair/replace damaged vent section | HVAC or Handyman | $150-300 |
-| Faulty GFCI outlets | Lower unit kitchen, rear exterior | Replace non-functioning GFCI receptacles | Licensed Electrician | $200-300 |
+**DIY Tasks** - See [Fire/Gas Safety DIY Plan](./diy/fire-gas-safety-diy.md):
+- Missing CO detectors (legally required) - $30-60
+
+**Note:** Crushed dryer vent moved to [HVAC DIY Plan](./diy/hvac-repairs-diy.md) ($20-40)  
+**Note:** Faulty GFCI outlets moved to [Electrical DIY Plan](./diy/electrical-repairs-diy.md) ($20-40)
 
 **Dependencies:** None - can be done immediately
 
@@ -131,14 +253,13 @@ The pest inspection revealed **$80,525 in critical fungus damage** throughout th
 **Urgency:** CRITICAL - Fix within 24-48 hours  
 **Total Estimated Cost:** $300-600
 
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Kitchen sink leak | Lower unit in-law kitchen | Repair leaking sink plumbing | Licensed Plumber | $200-400 |
-| Loose toilet | Upper unit hall bathroom | Tighten or reset toilet on new wax ring | Licensed Plumber | $100-200 |
+**Contractor Tasks** - See [Plumbing Contractor Plan](./contractor/plumbing-repairs-contractor.md):
+- Kitchen sink leak repair - $200-400
+- Loose toilet repair - $100-200
 
 **Dependencies:** None - can be done immediately
 
-**CRITICAL TOTAL:** $1,600-2,600
+**UPDATED CRITICAL TOTAL:** $340-625 (DIY) + $13,250-13,900 (Contractor) = $13,590-14,525
 
 ---
 
@@ -146,7 +267,9 @@ The pest inspection revealed **$80,525 in critical fungus damage** throughout th
 
 ### 🐛 Pest & Structural Issues - EXTENSIVE FUNGUS DAMAGE DISCOVERED
 **Urgency:** CRITICAL - Address immediately (Section I findings require immediate attention)  
-**Total Estimated Cost:** $73,575 + $6,950 permits = $80,525 (per pest inspection report)
+**Total Estimated Cost:** $46,211 (includes $29,291 materials + $6,950 permits + $120 TIM-BOR + $9,850 labor @ $25/hr)
+
+**See detailed breakdown:** [Pest/Fungus Remediation Contractor Plan](./contractor/pest-fungus-remediation-contractor.md)
 
 #### **CRITICAL SECTION I FINDINGS - IMMEDIATE REMEDIATION REQUIRED**
 
@@ -195,23 +318,35 @@ The pest inspection revealed **$80,525 in critical fungus damage** throughout th
 
 ### 🔧 HVAC & Mechanical
 **Urgency:** HIGH - Complete within 7 days  
-**Total Estimated Cost:** $800-1,500  
-**See full details in the [HVAC Repair Plan](./hvac-repairs.md)**
+**Total Estimated Cost:** $20-40 (DIY) + $1,200-2,400 (Contractor) = $1,220-2,440
 
-All high-priority HVAC items require a licensed contractor. This includes repairing the furnace, inducer motor, and adding attic ventilation.
+**DIY Tasks** - See [HVAC DIY Plan](./diy/hvac-repairs-diy.md):
+- Crushed dryer vent repair (fire hazard) - $20-40
+
+**Contractor Tasks** - See [HVAC Contractor Plan](./contractor/hvac-repairs-contractor.md):
+- Furnace condensation leak - $300-600
+- Noisy furnace fan - $400-800  
+- Missing attic ventilation - $500-1,000
 
 **Dependencies:** None - can be done immediately
 
 ### 💧 Plumbing Infrastructure  
 **Urgency:** HIGH - Complete within 7 days  
-**Total Estimated Cost:** $600-1,200  
-**See full details in the [Plumbing Repair Plan](./plumbing-repairs.md)**
+**Total Estimated Cost:** $30-60 (DIY) + $1,050-2,100 (Contractor) = $1,080-2,160
 
-All high-priority plumbing items require a licensed plumber. This includes fixing pipe connections and water heater safety issues.
+**DIY Tasks** - See [Plumbing DIY Plan](./diy/plumbing-repairs-diy.md):
+- Rusted P-traps replacement - $30-60
+
+**Contractor Tasks** - See [Plumbing Contractor Plan](./contractor/plumbing-repairs-contractor.md):
+- Kitchen sink leak (critical) - $200-400
+- Loose toilet (critical) - $100-200
+- Incompatible pipe connection - $200-400
+- Water heater relief valve - $150-300
+- Missing water heater drain pans - $300-600
 
 **Dependencies:** None - can be done immediately
 
-**HIGH PRIORITY TOTAL:** $80,525 + $3,400-7,700 (other items) = $83,925-88,225
+**HIGH PRIORITY TOTAL:** $46,211 (Pest/Fungus) + $50-100 (DIY) + $3,250-6,300 (Other Contractor) = $49,511-52,611
 
 ---
 
@@ -234,12 +369,16 @@ All high-priority plumbing items require a licensed plumber. This includes fixin
 **Urgency:** MEDIUM - Complete within 30 days  
 **Total Estimated Cost:** $1,000-2,500
 
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Negative grading | Front and right side | Regrade to slope away from structure | Landscaping Contractor | $500-1,200 |
-| Loose downspout | Right rear | Reconnect to underground drain | General Contractor/Handyman | $100-200 |
-| Exterior stucco cracks | Multiple locations | Repair and refinish cracks | General Contractor | $400-800 |
-| Exterior light fixture | Front entrance | Secure loose fixture | Electrician/Handyman | $100-200 |
+This work is broken down into a single contractor task and several DIY repairs.
+
+| Task | Assignment | Details |
+|------|------------|---------|
+| **Negative Grading** | Contractor | [View Contractor Scope](./contractor/exterior-drainage-contractor.md) |
+| **Minor Exterior Repairs** | DIY | [View DIY Guide](./diy/exterior-repairs-diy.md) |
+
+**Summary of Repairs:**
+- **Contractor:** Regrade front and right side of property to slope away from the structure.
+- **DIY:** Reconnect loose downspout, repair exterior stucco cracks, and secure loose exterior light fixture.
 
 **MEDIUM PRIORITY TOTAL:** $2,500-5,500
 
@@ -268,37 +407,109 @@ All high-priority plumbing items require a licensed plumber. This includes fixin
 | Install AFCI protection | Throughout building | Upgrade to arc-fault breakers | Licensed Electrician | $600-1,200 |
 | Additional receptacles | Various locations | Add convenience outlets | Licensed Electrician | $400-800 |
 
-**LOW PRIORITY TOTAL:** $3,500-8,000
+**LOW PRIORITY TOTAL:** $8,500-15,000
 
 ---
 
-## PROJECT EXECUTION STRATEGY
+## ⚠️ RISK ASSESSMENT & CONTINGENCY PLANNING
 
-### Phase 1: Critical Safety (Days 1-3)
-**Total Budget:** $1,600-2,600
-1. **Day 1 Morning:** Electrical safety repairs
-2. **Day 1 Afternoon:** CO detector installation
-3. **Day 2:** Plumbing leaks and GFCI repairs
-4. **Day 3:** Dryer vent repair
+### CRITICAL COST ESCALATION FACTORS
 
-### Phase 2: Damage Prevention (Days 4-30) - MAJOR FUNGUS REMEDIATION
-**Total Budget:** $80,525 + $3,400-7,700 (other items) = $83,925-88,225
-1. **Days 4-7:** Building permit applications and approvals
-2. **Days 8-15:** Critical fungus remediation (front porch, carport, decks)
-3. **Days 16-23:** Window and door replacements
-4. **Days 24-30:** HVAC and plumbing infrastructure updates
-5. **Ongoing:** Moisture investigation and waterproofing
+#### **1. Initial Estimate vs. Reality Gap**
+- **Original Estimate:** $108,815-119,800
+- **Realistic Analysis:** $85,000-110,000
+- **Variance:** 20-25% decrease using $25/hr labor vs. contractor markups
 
-### Phase 3: Functionality Restoration (Weeks 2-4)
-**Total Budget:** $2,500-5,500
-1. **Week 2:** Interior appliance and electrical repairs
-2. **Week 3:** Exterior drainage and grading
-3. **Week 4:** Door/window repairs and exterior maintenance
+#### **2. Fungus Remediation Cost Volatility**
+**Primary Risk Factors:**
+- **Hidden Damage Discovery:** +10-30% during demolition
+- **Lumber Price Fluctuations:** ±20-40% (current volatility)
+- **Labor Market Constraints:** Specialized fungus contractors in high demand
+- **Permit Processing Delays:** Can extend timeline 2-4 weeks
 
-### Phase 4: Quality of Life Improvements (As Budget Allows)
-**Total Budget:** $3,500-8,000
-- Schedule based on available funds and contractor availability
-- Can be done in phases over 6-12 months
+#### **3. Project Scope Creep Potential**
+**High Probability Areas:**
+- Additional fungus locations discovered: +$5,000-15,000
+- Structural issues beyond current assessment: +$3,000-8,000
+- Code upgrade requirements during permits: +$2,000-5,000
+- Waterproofing system complexity: +$1,500-3,000
+
+### DEPENDENCY RISK MATRIX
+
+| Risk Factor | Probability | Financial Impact | Timeline Impact | Mitigation Strategy |
+|-------------|-------------|------------------|-----------------|-------------------|
+| **Hidden Fungus Damage** | High (70%) | +$5,000-15,000 | +2-4 weeks | Thorough pre-demolition inspection |
+| **Lumber Price Increases** | Medium (50%) | +$2,000-5,000 | None | Lock in material prices early |
+| **Permit Delays** | Medium (40%) | +$2,000-5,000 | +2-3 weeks | Submit permits immediately |
+| **Contractor Availability** | High (60%) | +$5,000-15,000 | +3-6 weeks | Book contractors in advance |
+| **Weather Delays** | Medium (30%) | +$1,000-3,000 | +1-2 weeks | Plan for winter weather |
+| **Tool Rental Availability** | Low (20%) | +$2,000-4,000 | +1 week | Purchase vs. rent analysis |
+
+### FINANCIAL CONTINGENCY RECOMMENDATIONS
+
+#### **Conservative Approach (Recommended)**
+- **Base Budget:** $87,000-113,000
+- **Contingency Fund:** $13,000-17,000 (15%)
+- **Total Project Budget:** $100,000-130,000
+
+#### **Aggressive Approach**
+- **Base Budget:** $87,000-113,000  
+- **Contingency Fund:** $8,700-11,300 (10%)
+- **Total Project Budget:** $95,700-124,300
+- **Risk:** May require additional funding for scope creep
+
+### TIMELINE RISK MITIGATION
+
+#### **Critical Path Protection**
+1. **Property Transfer (Days 1-5):** Must complete regardless of other delays
+2. **Permit Processing (Days 6-10):** Submit immediately, plan for delays
+3. **Fungus Work (Days 11-45):** Weather-dependent exterior work scheduled first
+4. **Buffer Time:** Build in 2-week contingency for major phases
+
+#### **Seasonal Considerations**
+- **Winter Weather Impact:** Exterior work may be delayed
+- **Holiday Periods:** Contractor availability reduced
+- **Material Delivery:** Weather-related shipping delays
+
+### QUALITY CONTROL CHECKPOINTS
+
+#### **Phase Gates (No Proceed Without)**
+1. **Permits Approved:** Before any structural work
+2. **Moisture Source Identified:** Before fungus remediation
+3. **Structural Assessment:** Before major demolition
+4. **Material Delivery:** Before scheduled installation dates
+
+#### **Cost Control Measures**
+- **Weekly budget reviews** with all contractors
+- **Change order approval process** for additions >$1,000
+- **Material cost lock-ins** where possible
+- **Alternative material sourcing** for cost overruns
+
+### INSURANCE AND LIABILITY CONSIDERATIONS
+
+#### **Insurance Coverage Review**
+- **Property Insurance:** Verify fungus damage coverage before work
+- **Builder's Risk:** Consider temporary policy during construction
+- **Contractor Insurance:** Verify all contractors carry adequate coverage
+- **Workers Compensation:** Ensure coverage for all site work
+
+#### **Liability Mitigation**
+- **Licensed Contractors Only:** For all major work categories
+- **Permit Compliance:** All work must be properly permitted
+- **Safety Protocols:** Enforce site safety for TIM-BOR chemical work
+- **Documentation:** Photo/video all work phases for warranty/insurance
+
+### CONTINGENCY ACTIVATION TRIGGERS
+
+#### **Budget Triggers**
+- **10% over budget:** Activate value engineering review
+- **15% over budget:** Consider scope reduction options  
+- **20% over budget:** Full project reassessment required
+
+#### **Timeline Triggers**
+- **2 weeks behind:** Evaluate contractor resource additions
+- **4 weeks behind:** Consider overtime/expedited material options
+- **6 weeks behind:** Major schedule restructuring required
 
 ---
 
@@ -322,21 +533,44 @@ All high-priority plumbing items require a licensed plumber. This includes fixin
 
 ---
 
-## TOTAL PROJECT ESTIMATE
+## TOTAL PROJECT ESTIMATE - DIY vs CONTRACTOR BREAKDOWN
 
-| Priority Level | Cost Range |
-|----------------|------------|
-| **Critical (Days 1-3)** | $1,600 - $2,600 |
-| **High (Week 1-4)** | $83,925 - $88,225 |
-| **Medium (Month 1)** | $2,500 - $5,500 |
-| **Low (As Budget Allows)** | $3,500 - $8,000 |
-| **GRAND TOTAL** | **$91,525 - $109,425** |
+### By Work Type
+| Work Type | Cost Range | Potential DIY Savings |
+|-----------|------------|-------------------|
+| **DIY Tasks Total** | $590 - $1,265 | $1,750-3,335 vs contractor rates |
+| **Contractor Tasks Total** | $84,410 - $108,735 | Professional required |
+| **TOTAL PROJECT COST** | **$85,000 - $110,000** | |
 
-### Recommended Budget Allocation
-- **Immediate Safety (15% of budget):** $13,730 - $16,415
-- **Critical Fungus Remediation (75% of budget):** $68,645 - $82,070  
-- **Functionality (8% of budget):** $7,320 - $8,755
-- **Cosmetic Improvements (2% of budget):** $1,830 - $2,185
+### By Priority Level  
+| Priority Level | DIY Cost | Contractor Cost | Total Cost |
+|----------------|----------|-----------------|------------|
+| **Critical (Days 1-3)** | $90 - $125 | $13,500 - $14,400 | $13,590 - $14,525 |
+| **High (Week 1-4)** | $50 - $100 | $49,461 - $52,511 | $49,511 - $52,611 |
+| **Medium (Month 1)** | $450 - $970 | $3,220 - $7,200 | $3,670 - $8,170 |
+| **Low (As Budget Allows)** | $0 | $8,500 - $15,000 | $8,500 - $15,000 |
+| **Tools & Equipment** | N/A | $2,000 - $12,100 | $2,000 - $12,100 |
+| **GRAND TOTAL** | **$590 - $1,195** | **$86,681 - $111,011** | **$87,271 - $112,206** |
+
+### DIY Benefits Summary
+| System | DIY Tasks | DIY Cost | Professional Cost | Savings |
+|--------|-----------|----------|-------------------|---------|
+| **Electrical** | Cover plates, receptacles, junction box, wire protection, GFCI | $60-165 | $300-800 | $240-635 |
+| **Fire/Gas Safety** | CO detectors | $30-60 | $170-245 | $140-185 |
+| **Plumbing** | P-trap replacement | $30-60 | $270-390 | $240-330 |
+| **HVAC** | Dryer vent repair | $20-40 | $185-295 | $165-255 |
+| **Interior Functionality** | Drywall, painting prep, door/cabinet adjustments, flooring refresh | $400-900 | $1,200-2,500 | $800-1,600 |
+| **Exterior Repairs** | Downspout, stucco cracks, light fixture | $35-70 | $200-400 | $165-330 |
+| **TOTAL SAVINGS** | | **$575-1,295** | **$2,325-4,630** | **$1,750-3,335** |
+
+### Budget Allocation Strategy
+- **DIY First (Days 1-2):** $575-1,295 - Build confidence, immediate safety, interior functionality
+- **Critical Property Transfer Requirements (Days 1-5):** $12,700 - Sewer lateral + sidewalk compliance
+- **Critical Contractor Work (Days 6-45):** $46,211 - Major fungus remediation using $25/hr labor
+- **Supporting Contractor Work (Month 1):** $8,500-15,200 - Electrical, plumbing, HVAC contractors  
+- **Tools & Equipment:** $2,000-12,100 - Smart phasing strategy
+- **As Budget Allows (Months 2+):** $8,500-15,000 - Cosmetic and upgrade work
+- **Contingency Fund:** $8,500-17,000 - Risk mitigation (10-15%)
 
 ---
 
@@ -372,7 +606,11 @@ All high-priority plumbing items require a licensed plumber. This includes fixin
 - Consider home warranty for appliances
 - Annual comprehensive pest inspections recommended permanently
 
-**Last Updated:** August 8, 2025 (Pest Inspection Integration)
-**Next Review:** Immediate - building permits and contractor selection required
+**Last Updated:** August 16, 2025 (Comprehensive Tool Analysis Update)
+**Major Revision:** Total project cost revised to $87,000-113,000 including comprehensive tool analysis covering ALL 7 DIY projects. Tool investment updated from $1,500-9,900 to $2,000-12,100 with Ryobi ONE+ ecosystem optimization. Fungus remediation cost maintained at $46,211 using realistic DIY approach while maintaining all safety and licensing requirements.
+**Next Review:** Immediate - property transfer compliance must be completed before close of escrow
+**Property Transfer Requirements:** Sewer lateral + sidewalk compliance certificates required
 **Pest Report Date:** Per GT Inspects Inc. 18-page comprehensive report
 **Chemical Treatment:** Tim-Bor (Disodium Octaborate Tetrahydrate) required by licensed pest control operator
+**Labor Analysis:** 394 hours at $25/hour for fungus remediation vs. contractor rates
+**Materials Analysis:** Detailed lumber BOM shows $29,291 in materials + $9,850 labor + $6,950 permits

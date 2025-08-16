@@ -1,22 +1,23 @@
-# Fungus Remediation Project - Tool Bill of Materials (BOM)
+# Complete Property DIY Projects - Tool Bill of Materials (BOM)
 
 **Property:** 757 Santa Ray Avenue, Oakland, CA 94610  
-**Project:** $80,525 Fungus Damage Remediation  
-**Document Purpose:** Complete tool tracking, purchase planning, and project logistics  
-**Last Updated:** August 9, 2025
+**Projects Covered:** All DIY Repairs ($1,000+ in material costs) + $80,525 Fungus Remediation  
+**Document Purpose:** Complete tool tracking, purchase planning, and project logistics across ALL property DIY work  
+**Last Updated:** August 16, 2025
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-### 💰 FINANCIAL OVERVIEW
-| Category | Budget Range | Status | Notes |
-|----------|-------------|---------|-------|
-| **Phase 1 - Essential Tools** | $2,200-3,200 | Planning | Cannot start project without these |
-| **Phase 2 - Recommended Tools** | $1,500-2,500 | Optional | Makes job 3x faster/easier |
-| **Phase 3 - Professional Tools** | $2,000-3,500 | Future | Perfect results, long-term value |
-| **Consumables & Hardware** | $400-700 | Ongoing | Replace as used |
-| **TOTAL PROJECT INVESTMENT** | **$6,100-9,900** | **Planning** | **Enables $80,525 project completion** |
+### 💰 FINANCIAL OVERVIEW - ALL DIY PROJECTS
+| Category | Budget Range | Status | Projects Covered | Notes |
+|----------|-------------|---------|------------------|-------|
+| **Phase 1 - Universal Tools** | $800-1,200 | Planning | ALL 7 project categories | Cross-project essentials, max ROI |
+| **Phase 2 - Project-Specific** | $600-900 | Planning | Electrical, Exterior, Interior, Plumbing | Specialized tools for safety/quality |
+| **Phase 3 - Fungus Remediation** | $2,200-3,200 | Planning | Major structural work | Cannot start fungus project without these |
+| **Phase 4 - Professional Upgrade** | $2,000-3,500 | Future | Perfect results, long-term value | Advanced tools for efficiency |
+| **Consumables & Hardware** | $500-800 | Ongoing | Replace as used | All projects combined |
+| **TOTAL ALL DIY INVESTMENT** | **$6,100-9,600** | **Planning** | **Enables ALL property DIY work** |
 
 ### 📊 PURCHASE vs RENTAL STRATEGY
 | Category | Recommendation | Reasoning |
@@ -28,19 +29,149 @@
 
 ---
 
-## 🚨 PHASE 1: ESSENTIAL TOOLS - DETAILED BOM
-**Priority:** CRITICAL - Must purchase before project start  
-**Budget:** $2,200-3,200
+## 🎆 PROJECT COVERAGE SUMMARY
 
-### CUTTING TOOLS
-| Item | Model | Cost | Status | Usage Freq | Primary Applications | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
-|------|-------|------|--------|------------|-------------------|-------------------|----------|---------|---------------|--------|
-| **Reciprocating Saw** | DeWalt DWE305 | $140 | Not Purchased | Daily | Cut out fungus-damaged framing, tight spaces | 120V corded, various blade types | Buy | Home Depot | | Essential for demolition |
-| **Circular Saw 7-1/4"** | DeWalt DWE575 | $170 | Not Purchased | Daily | Cut new framing lumber, sheet goods | 15A motor, carbide blade | Buy | Home Depot | | Primary cutting tool |
-| **Oscillating Multi-Tool** | DeWalt DWE315K | $120 | Not Purchased | Weekly | Precision cuts around trim, corners | Variable speed, multiple attachments | Buy | Amazon | | Perfect for detail work |
-| **Jigsaw** | DeWalt DWE331K | $100 | Not Purchased | Occasional | Curved cuts, notches around pipes | Variable speed, orbital action | Buy | Home Depot | | Irregular cuts only |
-| **Reciprocating Saw Blades** | DeWalt/Diablo Multi-Pack | $40 | Not Purchased | Daily | Wood cutting, nail cutting | Metal/wood combo, various TPI | Buy | Home Depot | | Need wood+nail blades |
-| **Circular Saw Blades** | Freud Diablo Combo Pack | $60 | Not Purchased | Daily | Framing cuts, finish cuts | 24T framing, 60T finish | Buy | Home Depot | | 2-blade combo pack |
+### DIY Projects Included in This BOM
+| Project Category | Cost Range | Priority | Tool Overlap | Completion Timeline |
+|------------------|------------|----------|--------------|---------------------|
+| **Electrical Repairs** | $60-165 | 🔴 CRITICAL Safety | High | Week 1-2 |
+| **Fire & Gas Safety** | $30-60 | 🔴 CRITICAL Safety | Low | Week 1 |
+| **HVAC Repairs** | $20-40 | 🔴 CRITICAL Safety | Medium | Week 1 |
+| **Exterior Repairs** | $200-600 | 🟢 Medium Priority | Medium | Month 1-2 |
+| **Plumbing Repairs** | $30-60 | 🟢 Medium Priority | Low | Month 1 |
+| **Interior Functionality** | $400-900 | 🟡 High Priority | High | Month 2-3 |
+| **Fungus Remediation** | $80,525 | 🟠 Critical Structural | Complete | Month 3+ |
+
+**Total DIY Material Costs:** $81,365-82,350 **+ Tool Investment:** $6,100-9,600 = **$87,465-91,950**
+
+---
+
+## 🔍 CROSS-PROJECT TOOL USAGE MATRIX
+
+### ✅ UNIVERSAL TOOLS (Used in 4+ Projects)
+| Tool | Electrical | Fire Safety | HVAC | Exterior | Plumbing | Interior | Fungus | Usage Frequency |
+|------|------------|-------------|------|----------|----------|----------|--------|------------------|
+| **Drill/Driver** | ✓ Critical | ✓ | ✓ | ✓ | | ✓ Heavy | ✓ Daily | **HIGHEST PRIORITY** |
+| **Screwdriver Set** | ✓ Critical | ✓ | ✓ | ✓ | ✓ | ✓ Heavy | ✓ Daily | **HIGHEST PRIORITY** |
+| **Tape Measure** | ✓ | | ✓ | | | ✓ Heavy | ✓ Daily | **HIGHEST PRIORITY** |
+| **Level** | ✓ | | | | | ✓ Heavy | ✓ Daily | **HIGHEST PRIORITY** |
+| **Flashlight/Headlamp** | ✓ | | ✓ | | ✓ | ✓ | ✓ Daily | **HIGHEST PRIORITY** |
+
+### 🔄 MULTI-PROJECT TOOLS (Used in 2-3 Projects)
+| Tool | Project Usage | Frequency | Priority Level |
+|------|---------------|-----------|----------------|
+| **Wire Brush** | Exterior, Fungus | Weekly | High |
+| **Putty Knife** | Exterior, Interior, Fungus | Weekly | High |
+| **Pliers** | Electrical, HVAC, Exterior | Weekly | High |
+| **Work Gloves** | HVAC, Interior, Fungus | Daily | High |
+| **Dust Mask** | HVAC, Interior, Fungus | Daily | High |
+| **Utility Knife** | Interior, Fungus | Weekly | Medium |
+| **Hammer** | Interior, Fungus | Weekly | Medium |
+| **Reciprocating Saw** | Interior, Fungus | Weekly | Medium |
+| **Circular Saw** | Interior, Fungus | Weekly | Medium |
+
+### 🎯 PROJECT-SPECIFIC TOOLS (Single Project Use)
+| Tool | Project | Justification | Priority |
+|------|---------|---------------|----------|
+| **Non-contact Voltage Tester** | Electrical | CRITICAL safety - electrocution prevention | **HIGHEST** |
+| **Wire Strippers** | Electrical | Code compliance, proper connections | High |
+| **Ladder** | Exterior | Height access, safety | High |
+| **Caulking Gun** | Exterior | Weather sealing | Medium |
+| **Channel-lock Pliers** | Plumbing | Pipe fitting, P-trap work | Medium |
+| **Stud Finder** | Interior | Wall anchor safety | Medium |
+
+---
+
+## 🔋 RYOBI ONE+ ECOSYSTEM STRATEGY
+
+**Your Advantage:** Existing Ryobi ONE+ batteries mean significant tool cost savings
+
+### 🎆 RYOBI ONE+ 6-Tool Combo Kit - **BEST VALUE**
+**Current Home Depot Price:** $199 (reg. $299, save $100)
+**Includes:** Drill/Driver, Impact Driver, Reciprocating Saw, Circular Saw, Multi-Tool, LED Work Light, 1.5Ah battery, 4.0Ah battery, charger
+
+**Analysis:** This single purchase covers 6 universal/multi-project tools = **$33 per tool**
+
+### Individual Ryobi ONE+ Pricing (if buying separately)
+| Tool | Model | Home Depot Price | Combo Kit Savings |
+|------|-------|------------------|--------------------|
+| Drill/Driver | P1811 | $49 (tool only) | Save $16 |
+| Impact Driver | P235A | $69 (tool only) | Save $36 |
+| Reciprocating Saw | P514 | $89 (tool only) | Save $56 |
+| Circular Saw | PCL500B | $99 (tool only) | Save $66 |
+| Multi-Tool | PMT01 | $69 (tool only) | Save $36 |
+| LED Work Light | P713 | $39 (tool only) | Save $6 |
+| **TOTAL** | | **$414** | **Save $216** |
+
+**Recommendation:** **BUY THE COMBO KIT** - saves $216 and covers tools used across ALL projects
+
+---
+
+## 🔨 PHASE 1: UNIVERSAL TOOLS - DETAILED BOM
+**Priority:** CRITICAL - Must purchase before ANY project start  
+**Budget:** $800-1,200  
+**Projects Covered:** ALL 7 categories
+
+### 🔋 RYOBI ONE+ POWER TOOLS (Universal Multi-Project)
+| Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
+|------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
+| **🎆 Ryobi ONE+ 6-Tool Combo** | P1819 | $199 | Not Purchased | Daily | ALL 7 projects | **BEST VALUE** - 6 tools + batteries | Buy | Home Depot | | **START HERE** |
+| **Extra 4.0Ah Battery** | PBP2004 | $79 | Not Purchased | Daily | Extended work sessions | Compatible with existing tools | Buy | Home Depot | | More runtime |
+| **Ryobi ONE+ Jigsaw** | P523 | $59 | Not Purchased | Weekly | Interior, Fungus | Curved cuts, notches around pipes | Buy | Home Depot | | Curved cuts only |
+| **Reciprocating Saw Blades** | Diablo Multi-Pack | $40 | Not Purchased | Weekly | Interior, Fungus, Exterior | Metal/wood combo, various TPI | Buy | Home Depot | | Need wood+nail blades |
+| **Circular Saw Blades** | Freud Diablo Combo | $60 | Not Purchased | Weekly | Interior, Fungus | 24T framing, 60T finish | Buy | Home Depot | | 2-blade combo pack |
+
+---
+
+## 🔌 PHASE 2: PROJECT-SPECIFIC TOOLS - DETAILED BOM
+**Priority:** HIGH - Required for safety and code compliance  
+**Budget:** $600-900  
+**Projects Covered:** Electrical, Exterior, Interior, Plumbing
+
+### ⚡ ELECTRICAL SAFETY TOOLS (CRITICAL - Cannot Skip)
+| Item | Model | Cost | Status | Usage Freq | Safety Level | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
+|------|-------|------|--------|------------|--------------|-------------------|----------|---------|---------------|--------|
+| **Non-Contact Voltage Tester** | Klein NCVT-1SEN | $25 | Not Purchased | Every electrical task | **LIFE SAFETY** | ESSENTIAL - electrocution prevention | Buy | Home Depot | | **HIGHEST PRIORITY** |
+| **Wire Strippers/Cutters** | Klein 11057 | $35 | Not Purchased | Every electrical task | Code compliance | Proper gauge sizing | Buy | Home Depot | | Clean connections |
+| **Needle-Nose Pliers** | Klein D203-8 | $25 | Not Purchased | Every electrical task | Wire manipulation | Insulated handles preferred | Buy | Home Depot | | Tight spaces |
+| **Electrical Tape** | 3M Super 33+ | $8 | Not Purchased | Every electrical task | Code compliance | UL listed | Buy | Home Depot | | Multiple rolls needed |
+| **Wire Nuts Assortment** | Ideal In-Sure | $15 | Not Purchased | Every electrical task | Code compliance | Various sizes | Buy | Home Depot | | Connection security |
+
+### 🏠 EXTERIOR MAINTENANCE TOOLS
+| Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
+|------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
+| **Extension Ladder 24'** | Werner D7124-2 | $189 | Not Purchased | Weekly | Exterior repairs | 250 lb capacity, Type II | Buy | Home Depot | | Safety critical |
+| **Caulking Gun** | Newborn 930-GTD | $15 | Not Purchased | Weekly | Exterior sealing | Dripless, smooth rod | Buy | Home Depot | | Weather sealing |
+| **Wire Brush (Heavy Duty)** | Weiler 44006 | $12 | Not Purchased | Weekly | Surface prep | Stiff bristles | Buy | Home Depot | | Paint/rust removal |
+| **Putty Knife Set** | Hyde 4-piece | $28 | Not Purchased | Weekly | Surface prep, caulk application | Flexible blades | Buy | Home Depot | | Various sizes |
+| **Exterior Caulk** | DAP Dynaflex 230 | $8 | Not Purchased | Weekly | Weather sealing | 50-year formula | Buy | Home Depot | | Multiple tubes |
+
+### 🛠️ INTERIOR FINISHING TOOLS
+| Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
+|------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
+| **Stud Finder** | Zircon EdgeFind | $35 | Not Purchased | Every interior task | Wall anchor safety | Edge-finding, deep scan | Buy | Home Depot | | Prevent accidents |
+| **Drywall Knife Set** | Hyde Pro Set | $45 | Not Purchased | Weekly | Drywall patching | 2", 4", 6" sizes | Buy | Home Depot | | Smooth finish |
+| **Sanding Block** | 3M Hand-Masker | $8 | Not Purchased | Weekly | Surface prep | Flexible, dust collection | Buy | Home Depot | | Even pressure |
+| **Paint Brush Set** | Purdy XL Series | $55 | Not Purchased | Weekly | Interior painting | Chinex bristles | Buy | Home Depot | | Quality finish |
+| **Paint Roller Kit** | Wooster Big Ben | $25 | Not Purchased | Weekly | Interior painting | 9" roller, tray, liners | Buy | Home Depot | | Fast coverage |
+| **Drop Cloths Canvas** | CCS Chicago Canvas | $35 | Not Purchased | Weekly | Floor protection | 9'x12', washable | Buy | Home Depot | | Reusable |
+
+### 🔧 BASIC PLUMBING TOOLS
+| Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
+|------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
+| **Channel-Lock Pliers 10"** | Channellock 430 | $25 | Not Purchased | P-trap replacement | Plumbing repairs | Straight jaw, comfort grip | Buy | Home Depot | | Pipe fitting |
+| **Pipe Wrench 14"** | Ridgid 31000 | $35 | Not Purchased | Occasional | Heavy plumbing | Cast iron, secure grip | Buy | Home Depot | | Stubborn fittings |
+| **Plumber's Putty** | Oatey 31166 | $8 | Not Purchased | Occasional | Seal connections | Non-staining formula | Buy | Home Depot | | Traditional sealing |
+| **Teflon Tape** | Oatey 31273 | $3 | Not Purchased | Every plumbing task | Thread sealing | White, 1/2" x 520" | Buy | Home Depot | | Leak prevention |
+
+**PHASE 2 SUBTOTAL: $641**
+
+---
+
+## 🔨 PHASE 3: FUNGUS REMEDIATION TOOLS - DETAILED BOM
+**Priority:** CRITICAL for structural work - Must purchase before fungus project start  
+**Budget:** $2,200-3,200  
+**Projects Covered:** Major structural repairs
 
 ### DEMOLITION & REMOVAL TOOLS
 | Item | Model | Cost | Status | Usage Freq | Primary Applications | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
@@ -69,8 +200,8 @@
 ### FASTENING TOOLS
 | Item | Model | Cost | Status | Usage Freq | Primary Applications | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
 |------|-------|------|--------|------------|-------------------|-------------------|----------|---------|---------------|--------|
-| **Cordless Drill/Driver** | DeWalt DCD771C2 20V | $150 | Not Purchased | Daily | **PRIMARY** fastening tool | 20V MAX, 2 batteries, charger | Buy | Home Depot | | Get extra batteries |
-| **Impact Driver** | DeWalt DCF885C1 20V | $130 | Not Purchased | Daily | Large screws, lag bolts | Same battery system as drill | Buy | Home Depot | | More power than drill |
+| **✓ Cordless Drill/Driver** | ✓ INCLUDED in Ryobi Combo | $0 | ✓ Covered | Daily | **PRIMARY** fastening tool | Included in $199 combo kit | Combo | Home Depot | | **ALREADY COVERED** |
+| **✓ Impact Driver** | ✓ INCLUDED in Ryobi Combo | $0 | ✓ Covered | Daily | Large screws, lag bolts | Included in $199 combo kit | Combo | Home Depot | | **ALREADY COVERED** |
 | **Framing Hammer 20oz** | Estwing E3-20C | $40 | Not Purchased | Daily | Hand-drive nails, backup tool | Balanced, comfortable grip | Buy | Home Depot | | When nailer won't fit |
 | **Finish Hammer 16oz** | Estwing E16C | $35 | Not Purchased | Weekly | Finish nails, detail work | Lighter weight, smooth face | Buy | Home Depot | | Precision work |
 | **Nail Sets** | Stanley 58-930 (3-piece) | $12 | Not Purchased | Weekly | Set finish nails below surface | 1/32", 2/32", 3/32" sizes | Buy | Home Depot | | Professional finish |
@@ -119,9 +250,10 @@
 
 ---
 
-## 💪 PHASE 2: HIGHLY RECOMMENDED TOOLS - DETAILED BOM
-**Priority:** HIGH - Makes job 3x faster and more professional  
-**Budget:** $1,500-2,500
+## ⭐ PHASE 4: PROFESSIONAL UPGRADE TOOLS - DETAILED BOM
+**Priority:** OPTIONAL - Perfect results, long-term investment  
+**Budget:** $1,500-2,500  
+**Projects Covered:** Advanced efficiency for all projects
 
 ### POWER TOOLS
 | Item | Model | Cost | Status | Usage Freq | Primary Applications | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
@@ -152,9 +284,10 @@
 
 ---
 
-## ⭐ PHASE 3: PROFESSIONAL UPGRADE TOOLS - DETAILED BOM
-**Priority:** OPTIONAL - Perfect results, long-term investment  
-**Budget:** $2,000-3,500
+## 🔵 PHASE 5: PREMIUM SPECIALTY TOOLS - DETAILED BOM
+**Priority:** OPTIONAL - Ultimate precision and efficiency  
+**Budget:** $2,000-3,500  
+**Projects Covered:** Professional-grade results
 
 ### ADVANCED CUTTING & SHAPING
 | Item | Model | Cost | Status | Usage Freq | Primary Applications | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
@@ -303,11 +436,38 @@
 
 ---
 
-**TOTAL PROJECT BOM INVESTMENT: $6,238-9,900**
-**Enables Professional Completion of $80,525 Fungus Remediation Project**
+---
+
+## 💰 COMPREHENSIVE COST SUMMARY - ALL DIY PROJECTS
+
+### Investment by Phase
+| Phase | Purpose | Budget Range | ROI Justification |
+|-------|---------|--------------|-------------------|
+| **Phase 1 - Universal Tools** | Cross-project essentials | $800-1,200 | Used across ALL 7 projects |
+| **Phase 2 - Project-Specific** | Safety & code compliance | $600-900 | Critical for electrical/plumbing safety |
+| **Phase 3 - Fungus Remediation** | Major structural work | $2,200-3,200 | Cannot complete $80,525 project without |
+| **Phase 4 - Professional Upgrade** | Advanced efficiency | $1,500-2,500 | 3x faster completion, professional results |
+| **Phase 5 - Premium Specialty** | Ultimate precision | $2,000-3,500 | Perfect finish, long-term investment |
+| **Consumables & Hardware** | Ongoing supplies | $500-800 | Replace as used across all projects |
+
+### **TOTAL ALL DIY TOOL INVESTMENT: $7,600-12,100**
+
+### Value Proposition Analysis
+| Investment Level | Projects Enabled | Professional Cost Avoided | Net Savings |
+|------------------|------------------|---------------------------|-------------|
+| **Minimum ($800-1,200)** | Basic electrical, exterior, interior | $2,000-3,000 | **$800-1,800** |
+| **Recommended ($2,000-3,100)** | All safety-critical projects | $5,000-8,000 | **$2,900-4,900** |
+| **Complete ($7,600-12,100)** | Full fungus remediation + all DIY | $90,000-120,000 | **$77,900-107,900** |
+
+### **ENABLES COMPLETION OF:**
+- **$82,000+ in total DIY project value**
+- **Professional-grade results across all trades**
+- **Long-term tool investment for future projects**
+- **Safety compliance for electrical and structural work**
 
 **Next Steps:**
-1. **Finalize Phase 1 purchases** - Essential tools first
-2. **Set up vendor accounts** - Contractor pricing
-3. **Coordinate delivery timing** - Match project schedule
-4. **Establish tool security** - Prevent theft/loss
+1. **START WITH RYOBI COMBO KIT** - $199 covers 6 universal tools
+2. **Add electrical safety tools** - $108 for code compliance
+3. **Phase in remaining tools** - Based on project timeline
+4. **Set up Home Depot Pro account** - Contractor pricing
+5. **Coordinate tool delivery** - Match project schedule
