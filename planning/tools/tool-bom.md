@@ -140,8 +140,8 @@
 ### 🏠 EXTERIOR MAINTENANCE TOOLS
 | Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
 |------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
-| **Extension Ladder 24'** | Werner D7124-2 | $189 | Not Purchased | Weekly | Exterior repairs | 250 lb capacity, Type II | Buy | Home Depot | | Safety critical |
-| **Caulking Gun** | Newborn 930-GTD | $15 | Not Purchased | Weekly | Exterior sealing | Dripless, smooth rod | Buy | Home Depot | | Weather sealing |
+| **Extension Ladder 24'** | Werner D7124-2 | $189 | ✓ Already Owned | Weekly | Exterior repairs | 250 lb capacity, Type II | Buy | Home Depot | | Safety critical |
+| **Caulking Gun** | Newborn 930-GTD | $15 | ✓ Already Owned | Weekly | Exterior sealing | Dripless, smooth rod | Buy | Home Depot | | Weather sealing |
 | **Wire Brush (Heavy Duty)** | Weiler 44006 | $12 | Not Purchased | Weekly | Surface prep | Stiff bristles | Buy | Home Depot | | Paint/rust removal |
 | **Putty Knife Set** | Hyde 4-piece | $28 | Not Purchased | Weekly | Surface prep, caulk application | Flexible blades | Buy | Home Depot | | Various sizes |
 | **Exterior Caulk** | DAP Dynaflex 230 | $8 | Not Purchased | Weekly | Weather sealing | 50-year formula | Buy | Home Depot | | Multiple tubes |
@@ -149,7 +149,7 @@
 ### 🛠️ INTERIOR FINISHING TOOLS
 | Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
 |------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
-| **Stud Finder** | Zircon EdgeFind | $35 | Not Purchased | Every interior task | Wall anchor safety | Edge-finding, deep scan | Buy | Home Depot | | Prevent accidents |
+| **Stud Finder** | Zircon EdgeFind | $35 | ✓ Already Owned | Every interior task | Wall anchor safety | Edge-finding, deep scan | Buy | Home Depot | | Prevent accidents |
 | **Drywall Knife Set** | Hyde Pro Set | $45 | Not Purchased | Weekly | Drywall patching | 2", 4", 6" sizes | Buy | Home Depot | | Smooth finish |
 | **Sanding Block** | 3M Hand-Masker | $8 | Not Purchased | Weekly | Surface prep | Flexible, dust collection | Buy | Home Depot | | Even pressure |
 | **Paint Brush Set** | Purdy XL Series | $55 | Not Purchased | Weekly | Interior painting | Chinex bristles | Buy | Home Depot | | Quality finish |
@@ -160,11 +160,11 @@
 | Item | Model | Cost | Status | Usage Freq | Projects Used | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
 |------|-------|------|--------|------------|---------------|-------------------|----------|---------|---------------|--------|
 | **Channel-Lock Pliers 10"** | Channellock 430 | $25 | Not Purchased | P-trap replacement | Plumbing repairs | Straight jaw, comfort grip | Buy | Home Depot | | Pipe fitting |
-| **Pipe Wrench 14"** | Ridgid 31000 | $35 | Not Purchased | Occasional | Heavy plumbing | Cast iron, secure grip | Buy | Home Depot | | Stubborn fittings |
+| **Pipe Wrench 14"** | Ridgid 31000 | $35 | ✓ Already Owned | Occasional | Heavy plumbing | Cast iron, secure grip | Buy | Home Depot | | Stubborn fittings |
 | **Plumber's Putty** | Oatey 31166 | $8 | Not Purchased | Occasional | Seal connections | Non-staining formula | Buy | Home Depot | | Traditional sealing |
 | **Teflon Tape** | Oatey 31273 | $3 | Not Purchased | Every plumbing task | Thread sealing | White, 1/2" x 520" | Buy | Home Depot | | Leak prevention |
 
-**PHASE 2 SUBTOTAL: $641**
+**PHASE 2 SUBTOTAL: $556** (✓ $85 savings from owned tools)
 
 ---
 
@@ -178,7 +178,7 @@
 |------|-------|------|--------|------------|-------------------|-------------------|----------|---------|---------------|--------|
 | **Pry Bar 24"** | Estwing E3-24 | $35 | Not Purchased | Daily | Remove siding, trim, general demo | Forged steel, straight claw | Buy | Amazon | | Essential demo tool |
 | **Pry Bar 36"** | Estwing E3-36 | $55 | Not Purchased | Weekly | Heavy framing removal | Extra leverage for big stuff | Buy | Amazon | | For heavy work |
-| **Claw Hammer 20oz** | Estwing E3-20C | $40 | Not Purchased | Daily | Remove nails, demo, framing | Balanced weight, comfortable grip | Buy | Home Depot | | Versatile tool |
+| **Claw Hammer 20oz** | Estwing E3-20C | $40 | ✓ Already Owned | Daily | Remove nails, demo, framing | Balanced weight, comfortable grip | Buy | Home Depot | | Versatile tool |
 | **Cat's Paw Nail Puller** | Stanley 55-515 | $20 | Not Purchased | Daily | Extract buried nails cleanly | Sharp claws, good leverage | Buy | Home Depot | | Saves lumber |
 | **Sledge Hammer 3lb** | Estwing B3-3LB | $50 | Not Purchased | Weekly | Heavy demo, break apart structures | Fiberglass handle, balanced | Buy | Home Depot | | Controlled power |
 | **Wire Brush Set** | 3-piece variety pack | $20 | Not Purchased | Daily | **REQUIRED** - Clean fungus before TIM-BOR | Stiff bristles, various sizes | Buy | Amazon | | **Critical for treatment** |
@@ -187,7 +187,7 @@
 ### MEASURING & LAYOUT TOOLS
 | Item | Model | Cost | Status | Usage Freq | Primary Applications | Special Requirements | Buy/Rent | Vendor | Purchase Date | Notes |
 |------|-------|------|--------|------------|-------------------|-------------------|----------|---------|---------------|--------|
-| **Tape Measure 25'** | Stanley FatMax FMHT33338L | $25 | Not Purchased | Daily | Detail measurements, layout | Standout, clear markings | Buy | Home Depot | | Essential daily tool |
+| **Tape Measure 25'** | Stanley FatMax FMHT33338L | $25 | ✓ Already Owned | Daily | Detail measurements, layout | Standout, clear markings | Buy | Home Depot | | Essential daily tool |
 | **Tape Measure 100'** | Stanley 34-790 | $45 | Not Purchased | Weekly | Long structure measurements | Steel case, easy rewind | Buy | Home Depot | | For porch/deck layout |
 | **Speed Square 7"** | Swanson S0101 | $15 | Not Purchased | Daily | **MOST VERSATILE** - cuts, square, guide | Aluminum, clear markings | Buy | Home Depot | | Use constantly |
 | **Speed Square 12"** | Swanson Big 12 | $30 | Not Purchased | Daily | Large layouts, rafter cuts | Heavy-duty aluminum | Buy | Home Depot | | For structural work |
@@ -202,7 +202,7 @@
 |------|-------|------|--------|------------|-------------------|-------------------|----------|---------|---------------|--------|
 | **✓ Cordless Drill/Driver** | ✓ INCLUDED in Ryobi Combo | $0 | ✓ Covered | Daily | **PRIMARY** fastening tool | Included in $199 combo kit | Combo | Home Depot | | **ALREADY COVERED** |
 | **✓ Impact Driver** | ✓ INCLUDED in Ryobi Combo | $0 | ✓ Covered | Daily | Large screws, lag bolts | Included in $199 combo kit | Combo | Home Depot | | **ALREADY COVERED** |
-| **Framing Hammer 20oz** | Estwing E3-20C | $40 | Not Purchased | Daily | Hand-drive nails, backup tool | Balanced, comfortable grip | Buy | Home Depot | | When nailer won't fit |
+| **Framing Hammer 20oz** | Estwing E3-20C | $40 | ✓ Already Owned | Daily | Hand-drive nails, backup tool | Balanced, comfortable grip | Buy | Home Depot | | When nailer won't fit |
 | **Finish Hammer 16oz** | Estwing E16C | $35 | Not Purchased | Weekly | Finish nails, detail work | Lighter weight, smooth face | Buy | Home Depot | | Precision work |
 | **Nail Sets** | Stanley 58-930 (3-piece) | $12 | Not Purchased | Weekly | Set finish nails below surface | 1/32", 2/32", 3/32" sizes | Buy | Home Depot | | Professional finish |
 | **Extra Batteries** | DeWalt DCB204-2 20V (2-pack) | $120 | Not Purchased | Daily | Keep tools running | 4.0Ah capacity, fast charge | Buy | Home Depot | | Essential for productivity |
@@ -214,7 +214,7 @@
 |------|-------|------|--------|------------|-------------------|-------------------|----------|---------|---------------|--------|
 | **Moisture Meter** | General Tools MMD4E | $45 | Not Purchased | Weekly | **CRITICAL** - Verify wood dryness for TIM-BOR | Digital display, calibrated | Buy | Amazon | | **Essential for treatment** |
 | **LED Flashlight** | Streamlight 88061 ProTac | $50 | Not Purchased | Daily | Inspect dark subarea, attic | 350 lumens, rechargeable | Buy | Amazon | | Professional inspection |
-| **Headlamp** | Black Diamond Spot 400 | $45 | Not Purchased | Weekly | Hands-free inspection work | 400 lumens, waterproof | Buy | REI | | For tight spaces |
+| **Headlamp** | Black Diamond Spot 400 | $45 | ✓ Already Owned | Weekly | Hands-free inspection work | 400 lumens, waterproof | Buy | REI | | For tight spaces |
 | **Inspection Mirror** | SE MTE914 Telescoping | $18 | Not Purchased | Weekly | Check hidden damage areas | Extends to 33", 360° rotation | Buy | Amazon | | See around corners |
 | **Awl/Pick Set** | General Tools 4-piece | $15 | Not Purchased | Weekly | Probe wood for soft spots | Sharp points, comfortable handles | Buy | Home Depot | | Test wood integrity |
 
@@ -246,7 +246,7 @@
 | **C-Clamps 2"** | Pony Jorgensen 3202 (2) | $25 | Not Purchased | Weekly | Secure small work to bench | Cast iron, smooth operation | Buy | Home Depot | | Bench work |
 | **C-Clamps 4"** | Pony Jorgensen 3204 (2) | $35 | Not Purchased | Weekly | Medium clamping tasks | Cast iron construction | Buy | Home Depot | | Versatile size |
 
-**PHASE 1 SUBTOTAL: $2,856 (Based on specific models listed)**
+**PHASE 1 SUBTOTAL: $2,771** (✓ $85 savings from owned tools - based on specific models listed)
 
 ---
 
@@ -450,7 +450,7 @@
 | **Phase 5 - Premium Specialty** | Ultimate precision | $2,000-3,500 | Perfect finish, long-term investment |
 | **Consumables & Hardware** | Ongoing supplies | $500-800 | Replace as used across all projects |
 
-### **TOTAL ALL DIY TOOL INVESTMENT: $7,600-12,100**
+### **TOTAL ALL DIY TOOL INVESTMENT: $7,515-12,015** (✓ $85 savings from owned tools)
 
 ### Value Proposition Analysis
 | Investment Level | Projects Enabled | Professional Cost Avoided | Net Savings |

@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Executive Summary](#executive-summary)
 - [Priority Breakdown - Costs & Timeline](#priority-breakdown---costs--timeline)
+- [Project Phasing Strategy](#project-phasing-strategy)
 - [Category Cost Breakdown - By Work Type](#category-cost-breakdown---by-work-type)
 - [Critical Path Timeline](#critical-path-timeline)
 - [Critical Priority - Day 1 Fixes (Safety & Legal)](#critical-priority---day-1-fixes-safety--legal)
@@ -26,13 +27,13 @@
 **REALISTIC ANALYSIS USING DIY APPROACH:** Using materials costs plus $25/hour labor provides a realistic project scope of **$87,000-113,000**. The initial pest inspection estimate of **$80,525** was closer to actual costs when using reasonable labor rates rather than high contractor markups. Detailed material analysis shows **$29,291 in lumber** plus **394 labor hours at $25/hour** for fungus remediation. **Updated tool analysis covers ALL DIY projects** for comprehensive cost planning.
 
 ### PROJECT OVERVIEW
-| **Total Project Cost** | **$87,000 - $113,000** |
+| **Total Project Cost** | **$90,500 - $121,500** |
 |------------------------|-------------------------|
 | **Initial Estimate** | **$108,815 - $119,800 (OVERESTIMATED)** |
 | **Total Timeline** | **4-6 months** |
 | **Critical Safety Issues** | **12 items requiring immediate attention** |
 | **Property Transfer Requirements** | **$12,700 (sewer lateral + sidewalk compliance)** |
-| **Major Fungus Remediation** | **$46,211 (materials + $25/hr labor)** |
+| **Major Fungus Remediation** | **$46,211 ($18,075 completed, $28,136 remaining)** |
 | **Building Permits Required** | **$6,950 minimum** |
 | **Tools & Equipment** | **$2,000-12,100 (smart phasing vs full purchase)** |
 
@@ -40,7 +41,7 @@
 
 ## 📊 HIGH-LEVEL COST DISTRIBUTION
 
-### TOTAL PROJECT COST: $87,000 - $113,000
+### TOTAL PROJECT COST: $90,500 - $121,500
 
 ```mermaid
 pie title Santa Ray Property Repair Costs
@@ -57,7 +58,7 @@ pie title Santa Ray Property Repair Costs
 
 | Category | Amount | Percentage | Details |
 |----------|--------|------------|---------|
-| **🐛 Fungus Remediation** | $46,211 | 52.9% | Materials ($29,291) + Labor ($9,850) + Permits ($6,950) + TIM-BOR ($120) |
+| **🐛 Fungus Remediation** | $46,211 | 52.9% | Materials ($29,291) + Labor ($9,850) + Permits ($6,950) + TIM-BOR ($120). $18,075 of work completed. |
 | **🚨 Property Transfer** | $12,700 | 14.5% | Sewer Lateral ($6,900) + Sidewalk ADA ($5,800) |
 | **🎨 Cosmetic & Upgrades** | $11,750 | 13.5% | Cosmetic ($4,000) + Electrical Upgrades ($2,650) + Quality of Life ($3,150) + Appliances ($1,950) |
 | **🛠️ Tools & Equipment** | $7,050 | 7.5% | Smart phasing approach (universal + project-specific) |
@@ -77,14 +78,115 @@ This section provides a high-level overview of repair priorities, estimated cost
 - [Medium Priority - Month 1 (Functionality & Comfort)](#medium-priority---month-1-functionality--comfort)
 - [Low Priority - As Budget Allows (Cosmetic & Upgrades)](#low-priority---as-budget-allows-cosmetic--upgrades)
 
-| Priority Level | Estimated Cost | Estimated Duration | Key Focus Areas |
-|----------------|----------------|--------------------|-----------------|
-| 🔴 **Critical** | $13,590 - $14,525 | 5-7 days | Property transfer compliance (sewer lateral, sidewalk), immediate safety hazards (electrical, fire/gas, water damage prevention) |
-| 🟠 **High - Fungus Remediation** | $46,211 (incl. permits) | 30-45 days | Section I fungus damage remediation using $25/hr labor + materials across 13 locations |
-| 🟡 **High - Other Systems** | $3,900 - $7,700 | 2-3 weeks | HVAC, plumbing infrastructure, and moisture investigation |
-| 🟢 **Medium** | $3,670 - $8,170 | 3-4 weeks | Functionality and comfort improvements (interior appliances, exterior drainage, door/window functionality) |
-| 🔵 **Low** | $8,500 - $15,000 | 6-12 months | Cosmetic improvements and non-essential upgrades |
-| 🛠️ **Tools** | $2,000 - $12,100 | N/A | Smart phasing vs comprehensive purchase |
+| Priority Level | Estimated Cost | Key Focus Areas |
+|----------------|----------------|-----------------|
+| 🔴 **Critical** | $13,590 - $14,525 | Property transfer compliance (sewer lateral, sidewalk), immediate safety hazards (electrical, fire/gas, water damage prevention) |
+| 🟠 **High - Fungus Remediation** | $46,211 (incl. permits) | Section I fungus damage remediation using $25/hr labor + materials. $18,075 of work completed. |
+| 🟡 **High - Other Systems** | $3,900 - $7,700 | HVAC, plumbing infrastructure, and moisture investigation |
+| 🟢 **Medium** | $3,670 - $8,170 | Functionality and comfort improvements (interior appliances, exterior drainage, door/window functionality) |
+| 🔵 **Low** | $8,500 - $15,000 | Cosmetic improvements and non-essential upgrades |
+| 🛠️ **Tools** | $2,000 - $12,100 | Smart phasing vs comprehensive purchase |
+
+---
+
+## PROJECT PHASING STRATEGY
+
+This section outlines the project execution in four distinct phases based on key occupancy milestones and contractor availability.
+
+### Phase 1: Pre-PS (Before Paul & Sarah Move In)
+**Timeline:** Before occupancy
+**Total Cost:** $49,000 - $54,000 (estimated)
+**Focus:** Essential structural work and move-in preparation
+
+**Major Structural Work:**
+- Complete Section I fungus remediation - $46,211 (Licensed Pest Control + Permits)
+
+**Move-In Preparation Tasks:**
+- Floor refinishing throughout property - $1,000-2,500 (Flooring specialist)
+- Outlet and switch replacement throughout property - $500-1,500 (Electrical contractor)
+- Bedroom repainting - $800-1,200 (Painter)
+- Ceiling fan installation with new switch - $300-600 (Electrician)
+- Juliette balcony installation (replacing window) - $2,000-4,000 (General contractor)
+
+**Key Milestone:** Property structurally sound and move-in ready for Paul & Sarah.
+
+### Phase 2: Post-PS (After Paul & Sarah Move In)
+**Timeline:** First 30 days of occupancy
+**Total Cost:** $15,200 - $18,200
+**Focus:** Essential functionality and property compliance
+
+**Critical Property Transfer Requirements:**
+- Sewer Lateral Compliance - $6,900 (Challenge Rooter)
+- Sidewalk ADA Compliance - $5,800 (Challenge Rooter)
+
+**High Priority Systems:**
+- HVAC repairs (furnace, ventilation) - $1,220-2,440
+- Critical plumbing (P-traps, water heater) - $780-1,560
+- Interior functionality (appliances, doors) - $500-1,000
+
+**Key Milestone:** All essential systems functional and property compliance complete.
+
+### Phase 3: Pre-CG (Before Chris Guthrie Project)
+**Timeline:** Months 2-3
+**Total Cost:** $2,300 - $5,000
+**Focus:** Prepare property for Chris Guthrie's work scope
+
+**Infrastructure Preparation:**
+- Exterior drainage improvements - $500-1,200
+- Moisture investigation completion - $500-1,000
+- Electrical system preparation - $500-1,300
+- Washer/dryer relocation to new location - $800-1,500 (Plumber + Electrician)
+
+**Key Milestone:** Property ready for Chris Guthrie's specialized work.
+
+### Phase 4: Post-CG (After Chris Guthrie Project)
+**Timeline:** Months 4-12
+**Total Cost:** $8,500 - $15,000
+**Focus:** Cosmetic improvements and final upgrades
+
+**Quality of Life Improvements:**
+- Floor refinishing - $1,000-2,500
+- Interior paint touch-ups - $800-1,500
+- Window screens installation - $200-500
+- Electrical upgrades (ungrounded receptacles, AFCI) - $1,500-3,000
+- Cosmetic exterior work - $2,000-4,000
+
+**Key Milestone:** Property fully restored and optimized.
+
+### Phase 5: Uncategorized Items (Timeline TBD)
+**Timeline:** As needed throughout project
+**Total Cost:** $3,500 - $8,500
+**Focus:** Items requiring assessment and phasing decisions
+
+**Items Requiring Assessment & Integration:**
+- Stress crack in stucco - Front porch buttress wall - $200-500 (General contractor)
+- Poor subarea ventilation - Remove louvered screens, install wire mesh, add vents - $300-800 (General contractor/Handyman)
+- Water-stained hardwood refinishing investigation - $500-1,500 (Flooring specialist)
+- Deteriorated vanity replacement - Lower main bathroom - $800-1,500 (General contractor)
+- Subarea access deterioration maintenance - $200-500 (Handyman/Owner)
+- Cracked dining window repair - $300-600 (Licensed window repair)
+- Past moisture intrusion investigation - $500-1,500 (Drainage contractor + Waterproofing)
+- Chimney cleaning - In-law chimney flue - $200-400 (Licensed chimney sweep)
+- Non-functioning receptacle repair - Upper unit front entry stair landing - $150-300 (Licensed electrician)
+
+**Key Milestone:** All identified repair items properly categorized and scheduled.
+
+### Phasing Summary by Stakeholder
+
+| Phase | Primary Beneficiary | Cost Range | Key Focus |
+|-------|-------------------|------------|-----------|
+| **Pre-PS** | Property Safety & Move-In Ready | $49,000 - $54,000 | Structural, floor refinishing, move-in prep |
+| **Post-PS** | Paul & Sarah Daily Living | $15,200 - $18,200 | Essential functionality, property compliance |
+| **Pre-CG** | Chris Guthrie Project Prep | $2,300 - $5,000 | Infrastructure readiness |
+| **Post-CG** | Long-term Property Value | $8,500 - $15,000 | Cosmetic & upgrades |
+| **Uncategorized** | Assessment & Integration | $3,500 - $8,500 | Items requiring phasing decisions |
+
+### Tools & Equipment Strategy by Phase
+
+**Pre-PS Phase:** Purchase essential tools ($4,000-6,000) for major structural work
+**Post-PS Phase:** Rental approach ($500-1,000) for specific functionality repairs
+**Pre-CG Phase:** Coordinate tool sharing with Chris Guthrie project
+**Post-CG Phase:** Final tool purchases ($1,000-2,000) for ongoing maintenance
 
 ---
 
@@ -273,20 +375,20 @@ This timeline outlines the sequential phases of the repair project, emphasizing 
 
 #### **CRITICAL SECTION I FINDINGS - IMMEDIATE REMEDIATION REQUIRED**
 
-| Issue | Location | Scope | Treatment Required | Est. Cost |
-|-------|----------|-------|-------------------|-----------|
-| **Fungus-infected debris** | Accessible subarea | Remove all debris of rakeable size and larger | Licensed Pest Control - debris removal and disposal | $50 |
-| **Front porch/stairs fungus** | Wood framing beneath concrete porch/stairs | Remove insulation/sheetrock, repair fungus damaged framing with pressure treated douglas fir, Timbor fungicide treatment, reinstall materials, waterproofing | Licensed Pest Control + General Contractor + Waterproofing | $14,950 |
-| **Side stairs handrail** | Side stairs handrail post | Repair existing handrail to eliminate fungus damage | Licensed Pest Control | $175 |
-| **Rear wooden porch** | Rear wooden porch and framing | Complete porch and framing repair to eliminate fungus damage | Licensed Pest Control + General Contractor | $2,950 |
-| **Carport support posts** | Carport support posts | Repair posts to eliminate fungus damage, prime paint disturbed areas | Licensed Pest Control + General Contractor | $6,950 |
-| **Carport framing/siding** | Carport T1-11 siding and framing | Cut out fungus damaged wood, replace with new material, Tim-Bor treatment | Licensed Pest Control + General Contractor | Included w/ support posts |
-| **Side deck and stairs** | Side wooden deck and stairs | Complete deck/stairs repair to eliminate fungus infection | Licensed Pest Control + General Contractor | $5,650 |
-| **Main unit window sashes** | Large bedroom windows and sills | Remove/replace fungus damaged wood window sashes with new prime painted sashes, repair sills/framing | Licensed Pest Control + Window Contractor | $9,850 |
-| **French door subfloor** | Subfloor adjacent to lower french doors | Repair fungus damage to subflooring and framing | Licensed Pest Control + General Contractor | $2,750 |
-| **Side French doors** | Side French doors at fascia | Remove/replace fungus damaged doors, framing, and sill with new prime painted units | Licensed Pest Control + General Contractor | $12,650 |
-| **Exterior window sashes** | Seven single lite fixed exterior windows | Remove/replace fungus damaged sashes with new prime painted sashes | Licensed Pest Control + Window Contractor | $4,950 |
-| **Lower rear French doors** | Lower rear French doors | Remove/replace fungus damaged doors, framing, and sill with new prime painted units | Licensed Pest Control + General Contractor | $12,650 |
+| Issue | Location | Scope | Treatment Required | Est. Cost | Status |
+|-------|----------|-------|-------------------|-----------|--------|
+| **Fungus-infected debris** | Accessible subarea | Remove all debris of rakeable size and larger | Licensed Pest Control - debris removal and disposal | $50 | Pending |
+| **Front porch/stairs fungus** | Wood framing beneath concrete porch/stairs | Remove insulation/sheetrock, repair fungus damaged framing with pressure treated douglas fir, Timbor fungicide treatment, reinstall materials, waterproofing | Licensed Pest Control + General Contractor + Waterproofing | $14,950 | ✅ Completed (Stucco repair pending) |
+| **Side stairs handrail** | Side stairs handrail post | Repair existing handrail to eliminate fungus damage | Licensed Pest Control | $175 | ✅ Completed |
+| **Rear wooden porch** | Rear wooden porch and framing | Complete porch and framing repair to eliminate fungus damage | Licensed Pest Control + General Contractor | $2,950 | ✅ Completed |
+| **Carport support posts** | Carport support posts | Repair posts to eliminate fungus damage, prime paint disturbed areas | Licensed Pest Control + General Contractor | $6,950 | Pending |
+| **Carport framing/siding** | Carport T1-11 siding and framing | Cut out fungus damaged wood, replace with new material, Tim-Bor treatment | Licensed Pest Control + General Contractor | Included w/ support posts | Pending |
+| **Side deck and stairs** | Side wooden deck and stairs | Complete deck/stairs repair to eliminate fungus infection | Licensed Pest Control + General Contractor | $5,650 | Pending |
+| **Main unit window sashes** | Large bedroom windows and sills | Remove/replace fungus damaged wood window sashes with new prime painted sashes, repair sills/framing | Licensed Pest Control + Window Contractor | $9,850 | Pending |
+| **French door subfloor** | Subfloor adjacent to lower french doors | Repair fungus damage to subflooring and framing | Licensed Pest Control + General Contractor | $2,750 | Pending |
+| **Side French doors** | Side French doors at fascia | Remove/replace fungus damaged doors, framing, and sill with new prime painted units | Licensed Pest Control + General Contractor | $12,650 | Pending |
+| **Exterior window sashes** | Seven single lite fixed exterior windows | Remove/replace fungus damaged sashes with new prime painted sashes | Licensed Pest Control + Window Contractor | $4,950 | Pending |
+| **Lower rear French doors** | Lower rear French doors | Remove/replace fungus damaged doors, framing, and sill with new prime painted units | Licensed Pest Control + General Contractor | $12,650 | Pending |
 
 **Permit Requirements:** Building permits required - Est. $6,950 additional**
 
@@ -297,6 +399,7 @@ This timeline outlines the sequential phases of the repair project, emphasizing 
 | **Past moisture intrusion** | Accessible subarea and basement | Investigation and drainage correction | Drainage Contractor + Waterproofing | Owner referral |
 | **Loose toilet** | Main bathroom | Professional resetting, subfloor inspection for damage | Licensed Plumber | Owner referral |
 | **Cracked dining window** | Dining room | Window repair to prevent moisture intrusion | Licensed Window Repair | Owner referral |
+| **Fascia at Roofline** | Roofline | Fungus damage at fascia, requires professional assessment and repair to prevent water intrusion | Licensed Roofing Contractor | Owner referral |
 
 #### **MEDIUM PRIORITY SECTION II FINDINGS - OWNER ACTION ITEMS**
 
