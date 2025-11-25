@@ -45,7 +45,7 @@
 
 ```mermaid
 pie title Santa Ray Property Repair Costs
-    "Fungus Remediation" : 46211
+    "Fungus Remediation" : 52367
     "Property Transfer Compliance" : 12700
     "Cosmetic & Upgrades" : 11750
     "Tools & Equipment" : 7050
@@ -58,7 +58,7 @@ pie title Santa Ray Property Repair Costs
 
 | Category | Amount | Percentage | Details |
 |----------|--------|------------|---------|
-| **🐛 Fungus Remediation** | $46,211 | 52.9% | Materials ($29,291) + Labor ($9,850) + Permits ($6,950) + TIM-BOR ($120). $18,075 of work completed. |
+| **🐛 Fungus Remediation** | $52,367 | 54.7% | Materials ($31,294) + Labor ($13,200) + Permits ($6,950) + TIM-BOR ($120). $18,075 of work completed. |
 | **🚨 Property Transfer** | $12,700 | 14.5% | Sewer Lateral ($6,900) + Sidewalk ADA ($5,800) |
 | **🎨 Cosmetic & Upgrades** | $11,750 | 13.5% | Cosmetic ($4,000) + Electrical Upgrades ($2,650) + Quality of Life ($3,150) + Appliances ($1,950) |
 | **🛠️ Tools & Equipment** | $7,050 | 7.5% | Smart phasing approach (universal + project-specific) |
@@ -67,6 +67,88 @@ pie title Santa Ray Property Repair Costs
 | **💧 DIY Safety Tasks** | $928 | 1.1% | Electrical ($113) + Fire/Gas ($45) + Plumbing ($45) + HVAC ($30) + Critical Repairs ($450) + Interior ($150) + Exterior ($53) |
 
 **📋 For detailed cost analysis see:** [Detailed Cost Breakdown](./detailed-cost-breakdown.md)
+
+---
+
+## 📊 HIGH-LEVEL LABOR HOURS DISTRIBUTION
+
+### TOTAL PROJECT LABOR: 1,000-1,350 hours (Midpoint: ~1,165 hours)
+
+**Where will your time be spent?** This visualization shows the distribution of labor hours across all project categories. The comprehensive analysis revealed that fungus remediation dominates the timeline at 60% of total labor.
+
+#### 🐛 Fungus Remediation Breakdown (700 hours)
+
+The largest single category - detailed by location and work type:
+
+```mermaid
+pie title Fungus Remediation Labor Distribution (700 hours)
+    "Smaller Studio Mold" : 155
+    "Front Porch/Stairs" : 100
+    "Side Deck & Stairs" : 80
+    "Main Unit Windows (8)" : 75
+    "Exterior Windows (7)" : 68
+    "Carport Posts" : 52
+    "Side French Doors" : 48
+    "Lower French Doors" : 42
+    "Rear Porch" : 42
+    "TIM-BOR Application" : 40
+    "Other (3 items)" : 38
+```
+
+**Other includes:** Subfloor repair (23 hrs), Debris removal (10 hrs), Handrail repair (5 hrs)
+
+**Key Insights:**
+- **Smaller studio emergency**: 155 hours (22%) - mold discovered during door installation, requires complete deck disassembly
+- **TIM-BOR treatment**: 40 hours (6%) - Licensed pest control must treat ALL exposed wood between demo and rebuild
+- **Windows dominate**: 143 hours combined (20%) - 15 windows with non-standard dimensions and fungus-damaged sills
+
+---
+
+#### 🎨 Cosmetic & Upgrades Breakdown (231 hours)
+
+Lower priority work that can be deferred:
+
+```mermaid
+pie title Cosmetic & Upgrades Labor Distribution (231 hours)
+    "Floor Refinishing" : 68
+    "Interior Painting" : 56
+    "Vinyl Flooring" : 37
+    "Additional Circuits" : 28
+    "Ungrounded Receptacles" : 19
+    "AFCI Protection" : 17
+    "Window Screens" : 8
+```
+
+**Key Insights:**
+- **Floor refinishing**: 68 hours (29%) - includes 7-10 CALENDAR days due to cure times
+- **Painting**: 56 hours (24%) - 60-70% is prep work (crack repair, sanding, priming)
+- **Electrical upgrades**: 64 hours (28%) - ungrounded receptacles, AFCI, new circuits (requires permits)
+- **Deferrable work**: All items can be postponed if budget or timeline requires
+
+### LABOR HOURS BREAKDOWN BY CATEGORY
+
+| Category | Labor Hours | % of Total | Key Work Items | Timeline Impact |
+|----------|-------------|------------|----------------|-----------------|
+| **🐛 Fungus Remediation** | 700 hrs | 62% | 14 locations: windows, doors, decks, porches, structural framing | 10-14 weeks (CRITICAL PATH) |
+| **🎨 Cosmetic & Upgrades** | 231 hrs | 20% | Floor refinishing (68 hrs), Painting (56 hrs), Flooring (37 hrs), Electrical upgrades (63 hrs), Screens (8 hrs) | 4-8 weeks (deferrable) |
+| **🏠 Interior & Exterior Repairs** | 74 hrs | 7% | Interior work (54 hrs), Exterior grading/drainage (20 hrs) | 1-2 weeks |
+| **🚨 Property Transfer Compliance** | 72 hrs | 6% | Sewer lateral (45 hrs), Sidewalk ADA (27 hrs) | 5 days (BLOCKING ESCROW) |
+| **🔧 Essential Systems & Safety** | 60 hrs | 5% | Electrical (20 hrs), HVAC (20 hrs), Plumbing (20 hrs), Fire/Gas (1 hr) | 1-2 weeks |
+| **GRAND TOTAL** | **~1,137 hrs** | **100%** | **Across all priorities and categories** | **14-20 weeks total** |
+
+### KEY INSIGHTS
+
+**Labor Hours vs. Cost Distribution:**
+- **Fungus remediation**: 62% of hours but 54% of cost → Labor-intensive structural work
+- **Cosmetic & upgrades**: 20% of hours but 13% of cost → Moderate labor, materials-focused
+- **Property transfer**: 6% of hours but 14% of cost → High contractor rates, specialized work
+- **Essential systems**: 5% of hours but 7% of cost → Specialized licensed contractors required
+
+**Critical Path Drivers:**
+1. **Fungus work (700 hrs)** = Longest single category, determines overall timeline
+2. **Permit delays** = Admin time adds 10-15 days (not labor hours)
+3. **Cure times** = Concrete (24 hrs), Stucco (24-48 hrs), Paint (48 hrs) add calendar days
+4. **Weather dependency** = 40% of fungus work is rain-sensitive
 
 ---
 
@@ -81,7 +163,7 @@ This section provides a high-level overview of repair priorities, estimated cost
 | Priority Level | Estimated Cost | Key Focus Areas |
 |----------------|----------------|-----------------|
 | 🔴 **Critical** | $13,590 - $14,525 | Property transfer compliance (sewer lateral, sidewalk), immediate safety hazards (electrical, fire/gas, water damage prevention) |
-| 🟠 **High - Fungus Remediation** | $46,211 (incl. permits) | Section I fungus damage remediation using $25/hr labor + materials. $18,075 of work completed. |
+| 🟠 **High - Fungus Remediation** | $52,367 (incl. permits) | Section I fungus damage remediation using $25/hr labor + materials. $18,075 completed, $6,156 smaller studio emergency added. |
 | 🟡 **High - Other Systems** | $3,900 - $7,700 | HVAC, plumbing infrastructure, and moisture investigation |
 | 🟢 **Medium** | $3,670 - $8,170 | Functionality and comfort improvements (interior appliances, exterior drainage, door/window functionality) |
 | 🔵 **Low** | $8,500 - $15,000 | Cosmetic improvements and non-essential upgrades |
@@ -91,102 +173,9 @@ This section provides a high-level overview of repair priorities, estimated cost
 
 ## PROJECT PHASING STRATEGY
 
-This section outlines the project execution in four distinct phases based on key occupancy milestones and contractor availability.
+**📋 This section has been moved to [schedule/project-phasing.md](./schedule/project-phasing.md)**
 
-### Phase 1: Pre-PS (Before Paul & Sarah Move In)
-**Timeline:** Before occupancy
-**Total Cost:** $49,000 - $54,000 (estimated)
-**Focus:** Essential structural work and move-in preparation
-
-**Major Structural Work:**
-- Complete Section I fungus remediation - $46,211 (Licensed Pest Control + Permits)
-
-**Move-In Preparation Tasks:**
-- Floor refinishing throughout property - $1,000-2,500 (Flooring specialist)
-- Outlet and switch replacement throughout property - $500-1,500 (Electrical contractor)
-- Bedroom repainting - $800-1,200 (Painter)
-- Ceiling fan installation with new switch - $300-600 (Electrician)
-- Juliette balcony installation (replacing window) - $2,000-4,000 (General contractor)
-
-**Key Milestone:** Property structurally sound and move-in ready for Paul & Sarah.
-
-### Phase 2: Post-PS (After Paul & Sarah Move In)
-**Timeline:** First 30 days of occupancy
-**Total Cost:** $15,200 - $18,200
-**Focus:** Essential functionality and property compliance
-
-**Critical Property Transfer Requirements:**
-- Sewer Lateral Compliance - $6,900 (Challenge Rooter)
-- Sidewalk ADA Compliance - $5,800 (Challenge Rooter)
-
-**High Priority Systems:**
-- HVAC repairs (furnace, ventilation) - $1,220-2,440
-- Critical plumbing (P-traps, water heater) - $780-1,560
-- Interior functionality (appliances, doors) - $500-1,000
-
-**Key Milestone:** All essential systems functional and property compliance complete.
-
-### Phase 3: Pre-CG (Before Chris Guthrie Project)
-**Timeline:** Months 2-3
-**Total Cost:** $2,300 - $5,000
-**Focus:** Prepare property for Chris Guthrie's work scope
-
-**Infrastructure Preparation:**
-- Exterior drainage improvements - $500-1,200
-- Moisture investigation completion - $500-1,000
-- Electrical system preparation - $500-1,300
-- Washer/dryer relocation to new location - $800-1,500 (Plumber + Electrician)
-
-**Key Milestone:** Property ready for Chris Guthrie's specialized work.
-
-### Phase 4: Post-CG (After Chris Guthrie Project)
-**Timeline:** Months 4-12
-**Total Cost:** $8,500 - $15,000
-**Focus:** Cosmetic improvements and final upgrades
-
-**Quality of Life Improvements:**
-- Floor refinishing - $1,000-2,500
-- Interior paint touch-ups - $800-1,500
-- Window screens installation - $200-500
-- Electrical upgrades (ungrounded receptacles, AFCI) - $1,500-3,000
-- Cosmetic exterior work - $2,000-4,000
-
-**Key Milestone:** Property fully restored and optimized.
-
-### Phase 5: Uncategorized Items (Timeline TBD)
-**Timeline:** As needed throughout project
-**Total Cost:** $3,500 - $8,500
-**Focus:** Items requiring assessment and phasing decisions
-
-**Items Requiring Assessment & Integration:**
-- Stress crack in stucco - Front porch buttress wall - $200-500 (General contractor)
-- Poor subarea ventilation - Remove louvered screens, install wire mesh, add vents - $300-800 (General contractor/Handyman)
-- Water-stained hardwood refinishing investigation - $500-1,500 (Flooring specialist)
-- Deteriorated vanity replacement - Lower main bathroom - $800-1,500 (General contractor)
-- Subarea access deterioration maintenance - $200-500 (Handyman/Owner)
-- Cracked dining window repair - $300-600 (Licensed window repair)
-- Past moisture intrusion investigation - $500-1,500 (Drainage contractor + Waterproofing)
-- Chimney cleaning - In-law chimney flue - $200-400 (Licensed chimney sweep)
-- Non-functioning receptacle repair - Upper unit front entry stair landing - $150-300 (Licensed electrician)
-
-**Key Milestone:** All identified repair items properly categorized and scheduled.
-
-### Phasing Summary by Stakeholder
-
-| Phase | Primary Beneficiary | Cost Range | Key Focus |
-|-------|-------------------|------------|-----------|
-| **Pre-PS** | Property Safety & Move-In Ready | $49,000 - $54,000 | Structural, floor refinishing, move-in prep |
-| **Post-PS** | Paul & Sarah Daily Living | $15,200 - $18,200 | Essential functionality, property compliance |
-| **Pre-CG** | Chris Guthrie Project Prep | $2,300 - $5,000 | Infrastructure readiness |
-| **Post-CG** | Long-term Property Value | $8,500 - $15,000 | Cosmetic & upgrades |
-| **Uncategorized** | Assessment & Integration | $3,500 - $8,500 | Items requiring phasing decisions |
-
-### Tools & Equipment Strategy by Phase
-
-**Pre-PS Phase:** Purchase essential tools ($4,000-6,000) for major structural work
-**Post-PS Phase:** Rental approach ($500-1,000) for specific functionality repairs
-**Pre-CG Phase:** Coordinate tool sharing with Chris Guthrie project
-**Post-CG Phase:** Final tool purchases ($1,000-2,000) for ongoing maintenance
+This phasing strategy will be superseded by the database-driven scheduling system which provides more granular task management and dependency tracking. See the schedule folder for the new scheduling approach.
 
 ---
 
@@ -285,232 +274,19 @@ This section outlines the project execution in four distinct phases based on key
 
 ---
 
-## CRITICAL PATH TIMELINE
+## PRIORITY-BASED TASK BREAKDOWN
 
-This timeline outlines the sequential phases of the repair project, emphasizing critical dependencies. For a detailed breakdown of tasks within each phase, refer to the [Project Execution Strategy](#project-execution-strategy) section.
+**📋 All priority sections have been moved to [schedule/priority-breakdown.md](./schedule/priority-breakdown.md)**
 
-| Phase | Description | Estimated Duration | Estimated Cost | Key Dependencies |
-|-------|-------------|--------------------|----------------|------------------|
-| **1: Property Transfer Compliance** | Complete sewer lateral replacement and sidewalk ADA compliance repairs. | Days 1-5 | $12,700 | Must complete before close of escrow |
-| **2: Immediate Safety** | Address all critical electrical, fire/gas, and water emergencies. | Days 1-3 | $1,600 - $2,600 | Can run parallel with Phase 1 |
-| **3: Major Fungus Remediation** | Comprehensive remediation of Section I fungus damage, including structural repairs. | Days 6-45 | $46,211 (incl. permits) | Building permits required (Days 6-10) |
-| **4: Infrastructure** | Repair and upgrade HVAC and plumbing systems. | Weeks 4-7 | $3,400 - $7,700 | Can overlap with final fungus remediation work |
-| **5: Functionality & Comfort** | Address interior repairs, exterior improvements, and general functionality. | Months 2-3 | $2,500 - $5,500 | Follows infrastructure work |
-| **6: Quality of Life** | Cosmetic improvements and non-essential upgrades. | Months 4-12 | $3,500 - $8,000 | As budget allows |
+This priority-based organization will be replaced by the database-driven scheduling system which provides proper task dependencies, assignee tracking, and timeline analysis. The new system addresses the limitations of simple priority groupings and enables more sophisticated project management.
 
----
+**Quick Reference:**
+- **Critical Priority**: Property transfer compliance, electrical/fire safety, water damage prevention ($13,590-14,525)
+- **High Priority**: Fungus remediation, HVAC/plumbing infrastructure ($55,667-58,767)
+- **Medium Priority**: Interior functionality, drainage/exterior ($2,500-5,500)
+- **Low Priority**: Cosmetic improvements, electrical upgrades ($8,500-15,000)
 
-## CRITICAL PRIORITY - DAY 1 FIXES (SAFETY & LEGAL)
-
-### 🚨 PROPERTY TRANSFER COMPLIANCE - MANDATORY BEFORE SALE
-**Urgency:** CRITICAL - Required before close of escrow  
-**Total Estimated Cost:** $12,700 (Challenge Rooter - Estimates #6296 & #6297)
-
-**Sewer Lateral Compliance** - See [Sewer Lateral Contractor Plan](./contractor/sewer-lateral-contractor.md):
-- Complete sewer lateral replacement (~50ft HDPE piping) - $6,900
-- EBMUD compliance test and certification included
-- All permits and inspection fees included
-- **Timeline:** 2 days
-- **Trigger:** EBMUD Regional PSL Ordinance - required for property transfer
-
-**Sidewalk Compliance** - See [Sidewalk Repairs Contractor Plan](./contractor/sidewalk-repairs-contractor.md):
-- Replace 28ft x 4ft concrete (112 sq ft) for ADA compliance - $5,800
-- Eliminate trip hazards exceeding ¼" requirements
-- City of Oakland compliance certificate included
-- **Timeline:** 2-3 days
-- **Trigger:** Oakland Municipal Code Chapter 12.04.380 - required for property transfer
-
-**Dependencies:** Both must be completed before property title transfer
-
-### 🚨 Electrical Safety Hazards
-**Urgency:** CRITICAL - Fix immediately  
-**Total Estimated Cost:** $60-165 (DIY) + $250-400 (Contractor) = $310-565
-
-**DIY Tasks** - See [Electrical DIY Plan](./diy/electrical-repairs-diy.md):
-- Missing receptacle cover plates - $5-10
-- Damaged receptacle replacement - $10-20  
-- Uncovered junction box cover - $5-15
-- Exposed wiring protection - $25-75
-- Faulty GFCI outlet replacement - $20-40
-
-**Contractor Tasks** - See [Electrical Contractor Plan](./contractor/electrical-repairs-contractor.md):
-- Open electrical subpanel holes - $100-150
-- Loose subpanel wiring - $150-250
-
-**Dependencies:** None - can be done immediately
-
-### 🚨 Fire & Gas Safety
-**Urgency:** CRITICAL - Fix immediately  
-**Total Estimated Cost:** $30-60 (DIY Only)
-
-**DIY Tasks** - See [Fire/Gas Safety DIY Plan](./diy/fire-gas-safety-diy.md):
-- Missing CO detectors (legally required) - $30-60
-
-**Note:** Crushed dryer vent moved to [HVAC DIY Plan](./diy/hvac-repairs-diy.md) ($20-40)  
-**Note:** Faulty GFCI outlets moved to [Electrical DIY Plan](./diy/electrical-repairs-diy.md) ($20-40)
-
-**Dependencies:** None - can be done immediately
-
-### 💧 Water Damage Prevention
-**Urgency:** CRITICAL - Fix within 24-48 hours  
-**Total Estimated Cost:** $300-600
-
-**Contractor Tasks** - See [Plumbing Contractor Plan](./contractor/plumbing-repairs-contractor.md):
-- Kitchen sink leak repair - $200-400
-- Loose toilet repair - $100-200
-
-**Dependencies:** None - can be done immediately
-
-**UPDATED CRITICAL TOTAL:** $340-625 (DIY) + $13,250-13,900 (Contractor) = $13,590-14,525
-
----
-
-## HIGH PRIORITY - WEEK 1 (PREVENT FURTHER DAMAGE)
-
-### 🐛 Pest & Structural Issues - EXTENSIVE FUNGUS DAMAGE DISCOVERED
-**Urgency:** CRITICAL - Address immediately (Section I findings require immediate attention)  
-**Total Estimated Cost:** $46,211 (includes $29,291 materials + $6,950 permits + $120 TIM-BOR + $9,850 labor @ $25/hr)
-
-**See detailed breakdown:** [Pest/Fungus Remediation Contractor Plan](./contractor/pest-fungus-remediation-contractor.md)
-
-#### **CRITICAL SECTION I FINDINGS - IMMEDIATE REMEDIATION REQUIRED**
-
-| Issue | Location | Scope | Treatment Required | Est. Cost | Status |
-|-------|----------|-------|-------------------|-----------|--------|
-| **Fungus-infected debris** | Accessible subarea | Remove all debris of rakeable size and larger | Licensed Pest Control - debris removal and disposal | $50 | Pending |
-| **Front porch/stairs fungus** | Wood framing beneath concrete porch/stairs | Remove insulation/sheetrock, repair fungus damaged framing with pressure treated douglas fir, Timbor fungicide treatment, reinstall materials, waterproofing | Licensed Pest Control + General Contractor + Waterproofing | $14,950 | ✅ Completed (Stucco repair pending) |
-| **Side stairs handrail** | Side stairs handrail post | Repair existing handrail to eliminate fungus damage | Licensed Pest Control | $175 | ✅ Completed |
-| **Rear wooden porch** | Rear wooden porch and framing | Complete porch and framing repair to eliminate fungus damage | Licensed Pest Control + General Contractor | $2,950 | ✅ Completed |
-| **Carport support posts** | Carport support posts | Repair posts to eliminate fungus damage, prime paint disturbed areas | Licensed Pest Control + General Contractor | $6,950 | Pending |
-| **Carport framing/siding** | Carport T1-11 siding and framing | Cut out fungus damaged wood, replace with new material, Tim-Bor treatment | Licensed Pest Control + General Contractor | Included w/ support posts | Pending |
-| **Side deck and stairs** | Side wooden deck and stairs | Complete deck/stairs repair to eliminate fungus infection | Licensed Pest Control + General Contractor | $5,650 | Pending |
-| **Main unit window sashes** | Large bedroom windows and sills | Remove/replace fungus damaged wood window sashes with new prime painted sashes, repair sills/framing | Licensed Pest Control + Window Contractor | $9,850 | Pending |
-| **French door subfloor** | Subfloor adjacent to lower french doors | Repair fungus damage to subflooring and framing | Licensed Pest Control + General Contractor | $2,750 | Pending |
-| **Side French doors** | Side French doors at fascia | Remove/replace fungus damaged doors, framing, and sill with new prime painted units | Licensed Pest Control + General Contractor | $12,650 | Pending |
-| **Exterior window sashes** | Seven single lite fixed exterior windows | Remove/replace fungus damaged sashes with new prime painted sashes | Licensed Pest Control + Window Contractor | $4,950 | Pending |
-| **Lower rear French doors** | Lower rear French doors | Remove/replace fungus damaged doors, framing, and sill with new prime painted units | Licensed Pest Control + General Contractor | $12,650 | Pending |
-
-**Permit Requirements:** Building permits required - Est. $6,950 additional**
-
-#### **HIGH PRIORITY SECTION II FINDINGS - PROFESSIONAL ASSESSMENT REQUIRED**
-
-| Issue | Location | Scope | Treatment Required | Contractor |
-|-------|----------|-------|-------------------|-----------|
-| **Past moisture intrusion** | Accessible subarea and basement | Investigation and drainage correction | Drainage Contractor + Waterproofing | Owner referral |
-| **Loose toilet** | Main bathroom | Professional resetting, subfloor inspection for damage | Licensed Plumber | Owner referral |
-| **Cracked dining window** | Dining room | Window repair to prevent moisture intrusion | Licensed Window Repair | Owner referral |
-| **Fascia at Roofline** | Roofline | Fungus damage at fascia, requires professional assessment and repair to prevent water intrusion | Licensed Roofing Contractor | Owner referral |
-
-#### **MEDIUM PRIORITY SECTION II FINDINGS - OWNER ACTION ITEMS**
-
-| Issue | Location | Scope | Treatment Required | Est. Cost |
-|-------|----------|-------|-------------------|-----------|
-| **Stress crack in stucco** | Front porch buttress wall | Seal crack, monitor for settlement | General Contractor | Owner referral |
-| **Poor subarea ventilation** | Subarea ventilation system | Remove louvered screens, install wire mesh, add vents | General Contractor/Handyman | Owner referral |
-| **Water-stained hardwood** | Dining room and various locations | Floor refinishing, investigate stain causes | Flooring Specialist | Owner referral |
-| **Rusted P-traps** | 1/2 & lower bathrooms | See [Plumbing Repair Plan](./plumbing-repairs.md) | Licensed Plumber | Owner referral |
-| **Deteriorated vanity** | Lower main bathroom | Vanity replacement and sealing | General Contractor | Owner referral |
-| **Subarea access deterioration** | Exterior subarea access | Maintain exterior wood sealing | Handyman/Owner | Owner referral |
-
-**CRITICAL DEPENDENCIES:**
-- Licensed Pest Control Operator required for all Section I fungus remediation
-- Building permits required before structural work begins  
-- Tim-Bor fungicide treatment must be applied by licensed pest control firm
-- Moisture source investigation must be completed before repairs
-- Waterproofing contractor engagement required for long-term solution
-
-### 🔧 HVAC & Mechanical
-**Urgency:** HIGH - Complete within 7 days  
-**Total Estimated Cost:** $20-40 (DIY) + $1,200-2,400 (Contractor) = $1,220-2,440
-
-**DIY Tasks** - See [HVAC DIY Plan](./diy/hvac-repairs-diy.md):
-- Crushed dryer vent repair (fire hazard) - $20-40
-
-**Contractor Tasks** - See [HVAC Contractor Plan](./contractor/hvac-repairs-contractor.md):
-- Furnace condensation leak - $300-600
-- Noisy furnace fan - $400-800  
-- Missing attic ventilation - $500-1,000
-
-**Dependencies:** None - can be done immediately
-
-### 💧 Plumbing Infrastructure  
-**Urgency:** HIGH - Complete within 7 days  
-**Total Estimated Cost:** $30-60 (DIY) + $1,050-2,100 (Contractor) = $1,080-2,160
-
-**DIY Tasks** - See [Plumbing DIY Plan](./diy/plumbing-repairs-diy.md):
-- Rusted P-traps replacement - $30-60
-
-**Contractor Tasks** - See [Plumbing Contractor Plan](./contractor/plumbing-repairs-contractor.md):
-- Kitchen sink leak (critical) - $200-400
-- Loose toilet (critical) - $100-200
-- Incompatible pipe connection - $200-400
-- Water heater relief valve - $150-300
-- Missing water heater drain pans - $300-600
-
-**Dependencies:** None - can be done immediately
-
-**HIGH PRIORITY TOTAL:** $46,211 (Pest/Fungus) + $50-100 (DIY) + $3,250-6,300 (Other Contractor) = $49,511-52,611
-
----
-
-## MEDIUM PRIORITY - MONTH 1 (FUNCTIONALITY & COMFORT)
-
-### 🏠 Interior Functionality
-**Urgency:** MEDIUM - Complete within 30 days  
-**Total Estimated Cost:** $1,500-3,000
-
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Non-functioning oven | Upper unit left side oven | Repair or replace | Appliance Specialist | $200-800 |
-| Failed cooktop burner | Upper unit left front burner | Repair igniter or gas jet | Appliance Specialist | $150-300 |
-| Kitchen exhaust fan | Upper unit kitchen | Repair or replace | Electrician/Handyman | $200-400 |
-| Non-functioning receptacle | Upper unit front entry stair landing | Repair wiring | Licensed Electrician | $150-300 |
-| Chimney cleaning | In-law chimney flue | Clean soot and creosote buildup | Licensed Chimney Sweep | $200-400 |
-| Door and window repairs | Multiple locations | Repair damaged frames, sills, trim | General Contractor | $800-1,500 |
-
-### 🌊 Drainage & Exterior
-**Urgency:** MEDIUM - Complete within 30 days  
-**Total Estimated Cost:** $1,000-2,500
-
-This work is broken down into a single contractor task and several DIY repairs.
-
-| Task | Assignment | Details |
-|------|------------|---------|
-| **Negative Grading** | Contractor | [View Contractor Scope](./contractor/exterior-drainage-contractor.md) |
-| **Minor Exterior Repairs** | DIY | [View DIY Guide](./diy/exterior-repairs-diy.md) |
-
-**Summary of Repairs:**
-- **Contractor:** Regrade front and right side of property to slope away from the structure.
-- **DIY:** Reconnect loose downspout, repair exterior stucco cracks, and secure loose exterior light fixture.
-
-**MEDIUM PRIORITY TOTAL:** $2,500-5,500
-
----
-
-## LOW PRIORITY - AS BUDGET ALLOWS (COSMETIC & UPGRADES)
-
-### 🎨 Cosmetic Improvements
-**Urgency:** LOW - As budget permits  
-**Total Estimated Cost:** $2,000-5,000
-
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Floor refinishing | Multiple locations - scratched/faded wood floors | Sand and refinish | Flooring Specialist | $1,000-2,500 |
-| Interior paint touch-ups | Various walls and ceilings | Repair cracks and repaint | Painter | $800-1,500 |
-| Window screens | Multiple windows lacking screens | Install new screens | Window Specialist | $200-500 |
-| Vinyl flooring replacement | Lower unit utility room, in-law bathroom | Replace damaged vinyl | Flooring Specialist | $500-1,000 |
-
-### ⚡ Electrical Upgrades
-**Urgency:** LOW - Future improvements  
-**Total Estimated Cost:** $1,500-3,000
-
-| Issue | Location | Scope | Contractor | Est. Cost |
-|-------|----------|-------|------------|-----------|
-| Upgrade ungrounded receptacles | Multiple locations | Install grounded receptacles | Licensed Electrician | $800-1,500 |
-| Install AFCI protection | Throughout building | Upgrade to arc-fault breakers | Licensed Electrician | $600-1,200 |
-| Additional receptacles | Various locations | Add convenience outlets | Licensed Electrician | $400-800 |
-
-**LOW PRIORITY TOTAL:** $8,500-15,000
+See [schedule/priority-breakdown.md](./schedule/priority-breakdown.md) for complete details.
 
 ---
 
@@ -548,19 +324,6 @@ This work is broken down into a single contractor task and several DIY repairs.
 | **Weather Delays** | Medium (30%) | +$1,000-3,000 | +1-2 weeks | Plan for winter weather |
 | **Tool Rental Availability** | Low (20%) | +$2,000-4,000 | +1 week | Purchase vs. rent analysis |
 
-### FINANCIAL CONTINGENCY RECOMMENDATIONS
-
-#### **Conservative Approach (Recommended)**
-- **Base Budget:** $87,000-113,000
-- **Contingency Fund:** $13,000-17,000 (15%)
-- **Total Project Budget:** $100,000-130,000
-
-#### **Aggressive Approach**
-- **Base Budget:** $87,000-113,000  
-- **Contingency Fund:** $8,700-11,300 (10%)
-- **Total Project Budget:** $95,700-124,300
-- **Risk:** May require additional funding for scope creep
-
 ### TIMELINE RISK MITIGATION
 
 #### **Critical Path Protection**
@@ -573,46 +336,6 @@ This work is broken down into a single contractor task and several DIY repairs.
 - **Winter Weather Impact:** Exterior work may be delayed
 - **Holiday Periods:** Contractor availability reduced
 - **Material Delivery:** Weather-related shipping delays
-
-### QUALITY CONTROL CHECKPOINTS
-
-#### **Phase Gates (No Proceed Without)**
-1. **Permits Approved:** Before any structural work
-2. **Moisture Source Identified:** Before fungus remediation
-3. **Structural Assessment:** Before major demolition
-4. **Material Delivery:** Before scheduled installation dates
-
-#### **Cost Control Measures**
-- **Weekly budget reviews** with all contractors
-- **Change order approval process** for additions >$1,000
-- **Material cost lock-ins** where possible
-- **Alternative material sourcing** for cost overruns
-
-### INSURANCE AND LIABILITY CONSIDERATIONS
-
-#### **Insurance Coverage Review**
-- **Property Insurance:** Verify fungus damage coverage before work
-- **Builder's Risk:** Consider temporary policy during construction
-- **Contractor Insurance:** Verify all contractors carry adequate coverage
-- **Workers Compensation:** Ensure coverage for all site work
-
-#### **Liability Mitigation**
-- **Licensed Contractors Only:** For all major work categories
-- **Permit Compliance:** All work must be properly permitted
-- **Safety Protocols:** Enforce site safety for TIM-BOR chemical work
-- **Documentation:** Photo/video all work phases for warranty/insurance
-
-### CONTINGENCY ACTIVATION TRIGGERS
-
-#### **Budget Triggers**
-- **10% over budget:** Activate value engineering review
-- **15% over budget:** Consider scope reduction options  
-- **20% over budget:** Full project reassessment required
-
-#### **Timeline Triggers**
-- **2 weeks behind:** Evaluate contractor resource additions
-- **4 weeks behind:** Consider overtime/expedited material options
-- **6 weeks behind:** Major schedule restructuring required
 
 ---
 
@@ -636,47 +359,6 @@ This work is broken down into a single contractor task and several DIY repairs.
 
 ---
 
-## TOTAL PROJECT ESTIMATE - DIY vs CONTRACTOR BREAKDOWN
-
-### By Work Type
-| Work Type | Cost Range | Potential DIY Savings |
-|-----------|------------|-------------------|
-| **DIY Tasks Total** | $590 - $1,265 | $1,750-3,335 vs contractor rates |
-| **Contractor Tasks Total** | $84,410 - $108,735 | Professional required |
-| **TOTAL PROJECT COST** | **$85,000 - $110,000** | |
-
-### By Priority Level  
-| Priority Level | DIY Cost | Contractor Cost | Total Cost |
-|----------------|----------|-----------------|------------|
-| **Critical (Days 1-3)** | $90 - $125 | $13,500 - $14,400 | $13,590 - $14,525 |
-| **High (Week 1-4)** | $50 - $100 | $49,461 - $52,511 | $49,511 - $52,611 |
-| **Medium (Month 1)** | $450 - $970 | $3,220 - $7,200 | $3,670 - $8,170 |
-| **Low (As Budget Allows)** | $0 | $8,500 - $15,000 | $8,500 - $15,000 |
-| **Tools & Equipment** | N/A | $2,000 - $12,100 | $2,000 - $12,100 |
-| **GRAND TOTAL** | **$590 - $1,195** | **$86,681 - $111,011** | **$87,271 - $112,206** |
-
-### DIY Benefits Summary
-| System | DIY Tasks | DIY Cost | Professional Cost | Savings |
-|--------|-----------|----------|-------------------|---------|
-| **Electrical** | Cover plates, receptacles, junction box, wire protection, GFCI | $60-165 | $300-800 | $240-635 |
-| **Fire/Gas Safety** | CO detectors | $30-60 | $170-245 | $140-185 |
-| **Plumbing** | P-trap replacement | $30-60 | $270-390 | $240-330 |
-| **HVAC** | Dryer vent repair | $20-40 | $185-295 | $165-255 |
-| **Interior Functionality** | Drywall, painting prep, door/cabinet adjustments, flooring refresh | $400-900 | $1,200-2,500 | $800-1,600 |
-| **Exterior Repairs** | Downspout, stucco cracks, light fixture | $35-70 | $200-400 | $165-330 |
-| **TOTAL SAVINGS** | | **$575-1,295** | **$2,325-4,630** | **$1,750-3,335** |
-
-### Budget Allocation Strategy
-- **DIY First (Days 1-2):** $575-1,295 - Build confidence, immediate safety, interior functionality
-- **Critical Property Transfer Requirements (Days 1-5):** $12,700 - Sewer lateral + sidewalk compliance
-- **Critical Contractor Work (Days 6-45):** $46,211 - Major fungus remediation using $25/hr labor
-- **Supporting Contractor Work (Month 1):** $8,500-15,200 - Electrical, plumbing, HVAC contractors  
-- **Tools & Equipment:** $2,000-12,100 - Smart phasing strategy
-- **As Budget Allows (Months 2+):** $8,500-15,000 - Cosmetic and upgrade work
-- **Contingency Fund:** $8,500-17,000 - Risk mitigation (10-15%)
-
----
-
 ## NOTES & CONSIDERATIONS
 
 ### Permits Required
@@ -692,13 +374,6 @@ This work is broken down into a single contractor task and several DIY repairs.
 - Exterior work best completed before rainy season
 - HVAC repairs should be prioritized before winter
 
-### Insurance Claims
-- **CRITICAL: Document all extensive fungus damage thoroughly before remediation**
-- **Fungus damage totaling $80,525 - check policy for coverage**
-- Water damage and moisture intrusion may be covered depending on cause
-- Pest damage typically not covered unless sudden/accidental
-- Consider moisture damage claims for windows, doors, and structural elements
-
 ### Future Maintenance
 - **CRITICAL: Address moisture sources permanently to prevent fungus recurrence**
 - **Mandatory: Licensed pest control inspections every 6 months for 2 years post-remediation**
@@ -709,11 +384,16 @@ This work is broken down into a single contractor task and several DIY repairs.
 - Consider home warranty for appliances
 - Annual comprehensive pest inspections recommended permanently
 
-**Last Updated:** August 16, 2025 (Comprehensive Tool Analysis Update)
-**Major Revision:** Total project cost revised to $87,000-113,000 including comprehensive tool analysis covering ALL 7 DIY projects. Tool investment updated from $1,500-9,900 to $2,000-12,100 with Ryobi ONE+ ecosystem optimization. Fungus remediation cost maintained at $46,211 using realistic DIY approach while maintaining all safety and licensing requirements.
-**Next Review:** Immediate - property transfer compliance must be completed before close of escrow
-**Property Transfer Requirements:** Sewer lateral + sidewalk compliance certificates required
-**Pest Report Date:** Per GT Inspects Inc. 18-page comprehensive report
-**Chemical Treatment:** Tim-Bor (Disodium Octaborate Tetrahydrate) required by licensed pest control operator
-**Labor Analysis:** 394 hours at $25/hour for fungus remediation vs. contractor rates
-**Materials Analysis:** Detailed lumber BOM shows $29,291 in materials + $9,850 labor + $6,950 permits
+## 🕐 COMPREHENSIVE LABOR HOURS ANALYSIS
+
+**📋 This section has been moved to [schedule/labor-hours-analysis.md](./schedule/labor-hours-analysis.md)**
+
+For detailed labor hour estimates, timeline analysis, and implementation recommendations, see the dedicated labor hours analysis document. The analysis includes:
+
+- **Total Project Labor**: 1,000-1,350 hours (revised from initial estimates)
+- **Fungus Remediation**: 700 hours recommended (vs. 528 hrs initially)
+- **Timeline**: 14-20 weeks realistic (including permits, weather, cure times)
+- **Budget Impact**: +$4,300 for realistic fungus labor
+- **Critical Findings**: 115-year-old building complexity adds 20-35% to structural work
+
+See [schedule/labor-hours-analysis.md](./schedule/labor-hours-analysis.md) for comprehensive details.

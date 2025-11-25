@@ -1,0 +1,841 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Santa Ray Property//Task Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Santa Ray Property Repairs
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:Property repair and renovation task schedule
+
+BEGIN:VEVENT
+UID:santa-ray-task-0@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+SUMMARY:[Critical] Loose toilet repair
+DESCRIPTION:Description: Remove toilet, inspect subfloor, reset with new wax ring\nAssignee: Licensed Plumber\nCost Estimate: $100.0 - $200.0\nLabor Hours: 2 - 2\nPriority: Critical\nStatus: Not Started
+LOCATION:Upper unit hall bathroom
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-1@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+SUMMARY:[Critical] Install CO detector - in-law
+DESCRIPTION:Description: Install 10-year sealed battery CO detector\nAssignee: Paul (DIY)\nLabor Hours: 0 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:In-law apartment main living area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-2@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+SUMMARY:[Critical] De-energize affected circuits
+DESCRIPTION:Description: De-energize affected circuits safely for loose wiring repair\nAssignee: Licensed Electrician\nCost Estimate: $150.0 - $250.0\nLabor Hours: 1 - 2\nPriority: Critical\nStatus: Not Started
+LOCATION:Upper unit electrical subpanel
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-3@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+SUMMARY:[Critical] 24-hour concrete cure wait
+DESCRIPTION:Description: Cannot proceed until concrete has cured minimum 24 hours\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-4@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251113
+SUMMARY:[Critical] 50ft trench excavation
+DESCRIPTION:Description: Mini excavator + 1 operator + 1 laborer, traditional open trench method, 4-6ft deep, 2-3ft wide\nAssignee: Challenge Rooter\nLabor Hours: 12 - 12\nPriority: Critical\nStatus: Not Started
+LOCATION:From building to property line
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-5@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+SUMMARY:[Critical] Install CO detector - lower unit
+DESCRIPTION:Description: Install 10-year sealed battery CO detector\nAssignee: Paul (DIY)\nCost Estimate: $30.0 - $60.0\nLabor Hours: 0 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:Lower unit hallway outside bedrooms
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-6@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+SUMMARY:[Critical] Install approved snap-in filler plates
+DESCRIPTION:Description: Install UL-listed filler plates in open electrical subpanel holes\nAssignee: Licensed Electrician\nCost Estimate: $100.0 - $150.0\nLabor Hours: 1 - 2\nPriority: Critical\nStatus: Not Started
+LOCATION:Lower unit in-law closet electrical subpanel
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-7@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251117
+SUMMARY:[Critical] Install junction box cover
+DESCRIPTION:Description: Install missing junction box cover in attic\nAssignee: Paul (DIY)\nCost Estimate: $5.0 - $15.0\nLabor Hours: 1 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:Attic
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-8@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251118
+SUMMARY:[Critical] ADA compliance verification
+DESCRIPTION:Description: Measure slopes with level, verify ≤¼in vertical offset, measure width (48in minimum), document compliance\nAssignee: Challenge Rooter\nLabor Hours: 1 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:New sidewalk
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-9@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251118
+DTEND;VALUE=DATE:20251119
+SUMMARY:[Critical] Protect exposed wiring - stairwell
+DESCRIPTION:Description: Install surface-mounted raceway or EMT conduit to protect exposed wiring\nAssignee: Paul (DIY)\nLabor Hours: 2 - 3\nPriority: Critical\nStatus: Not Started
+LOCATION:Stairwell
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-10@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251121
+SUMMARY:[Critical] Backfill and compaction
+DESCRIPTION:Description: Proper compaction in lifts (layers), restore grade, prevent future settling\nAssignee: Challenge Rooter\nLabor Hours: 10 - 10\nPriority: Critical\nStatus: Not Started
+LOCATION:Entire trench length
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-11@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251120
+DTEND;VALUE=DATE:20251121
+SUMMARY:[Critical] Protect exposed wiring - utility room
+DESCRIPTION:Description: Install surface-mounted raceway or EMT conduit to protect exposed wiring\nAssignee: Paul (DIY)\nCost Estimate: $25.0 - $75.0\nLabor Hours: 2 - 3\nPriority: Critical\nStatus: Not Started
+LOCATION:Utility room, lower floor
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-12@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251124
+DTEND;VALUE=DATE:20251125
+SUMMARY:[Critical] Replace crushed dryer vent duct
+DESCRIPTION:Description: Replace crushed flexible dryer vent with UL 2158A semi-rigid aluminum duct\nAssignee: Paul (DIY)\nCost Estimate: $20.0 - $40.0\nLabor Hours: 2 - 3\nPriority: Critical\nStatus: Not Started
+LOCATION:Lower unit in-law apartment
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-13@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251124
+DTEND;VALUE=DATE:20251126
+SUMMARY:[Critical] Base preparation and grading - sidewalk
+DESCRIPTION:Description: Compact subgrade, add/level base material if needed, verify proper slope for drainage\nAssignee: Challenge Rooter\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-14@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251127
+DTEND;VALUE=DATE:20251201
+SUMMARY:[Critical] Building cleanout excavation
+DESCRIPTION:Description: Mini excavator operation, approx 4-6ft deep, 3ft x 6ft area at building connection point\nAssignee: Challenge Rooter\nLabor Hours: 6 - 6\nPriority: Critical\nStatus: Not Started
+LOCATION:Building connection point
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-15@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251204
+SUMMARY:[Critical] Concrete demolition (112 sq ft)
+DESCRIPTION:Description: Jackhammer or concrete saw, 4 inch thick concrete = ~1.8 tons of material, heavy physical work\nAssignee: Challenge Rooter\nLabor Hours: 6 - 6\nPriority: Critical\nStatus: Not Started
+LOCATION:Middle and right sections of sidewalk
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-16@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251209
+SUMMARY:[Critical] Curing preparation
+DESCRIPTION:Description: Apply curing compound or cover with plastic sheeting, protect from traffic\nAssignee: Challenge Rooter\nLabor Hours: 1 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:Fresh concrete
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-17@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251212
+SUMMARY:[Critical] Debris removal and disposal - sidewalk
+DESCRIPTION:Description: Load truck, haul to disposal facility (~$80-100/ton disposal fee), cleanup site\nAssignee: Challenge Rooter\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk demolition area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-18@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251217
+SUMMARY:[Critical] Documentation and certification - sewer
+DESCRIPTION:Description: Complete paperwork, take photos, submit compliance certificate to EBMUD\nAssignee: Challenge Rooter\nLabor Hours: 1 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:Office/administrative
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-19@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251218
+DTEND;VALUE=DATE:20251222
+SUMMARY:[Critical] Documentation and certification - sidewalk
+DESCRIPTION:Description: Photos, measurements, Oakland compliance certificate application and submission\nAssignee: Challenge Rooter\nLabor Hours: 1 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:Administrative
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-20@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251223
+DTEND;VALUE=DATE:20251225
+SUMMARY:[Critical] EBMUD compliance testing
+DESCRIPTION:Description: Pressure test or video inspection witnessed by EBMUD inspector, documentation\nAssignee: Challenge Rooter\nLabor Hours: 6 - 6\nPriority: Critical\nStatus: Not Started
+LOCATION:Full sewer lateral
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-21@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251230
+SUMMARY:[Critical] Concrete delivery coordination
+DESCRIPTION:Description: Ready-mix truck scheduling, site access verification, final prep\nAssignee: Challenge Rooter\nLabor Hours: 1 - 1\nPriority: Critical\nStatus: Not Started
+LOCATION:Property access
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-22@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260102
+SUMMARY:[Critical] Final grading and site restoration - sewer
+DESCRIPTION:Description: Restore landscaping, cleanup debris, remove equipment, restore site access\nAssignee: Challenge Rooter\nLabor Hours: 6 - 6\nPriority: Critical\nStatus: Not Started
+LOCATION:Entire work area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-23@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260107
+SUMMARY:[Critical] Form removal
+DESCRIPTION:Description: Carefully remove edge forms without damaging concrete, clean up form materials\nAssignee: Challenge Rooter\nLabor Hours: 2 - 2\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk (after 24hr cure)
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-24@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260108
+DTEND;VALUE=DATE:20260112
+SUMMARY:[Critical] Formwork installation
+DESCRIPTION:Description: Install edge forms for 28ft x 4ft section, verify grade/slope compliance, stake securely\nAssignee: Challenge Rooter\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-25@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260115
+SUMMARY:[Critical] Concrete pour (1.4 cu yd)
+DESCRIPTION:Description: Pour concrete, screed to proper level, initial leveling. Volume: 112 sq ft × 4in = 1.4 cubic yards\nAssignee: Challenge Rooter\nLabor Hours: 3 - 3\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk forms
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-26@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260120
+SUMMARY:[Critical] Finishing work - sidewalk
+DESCRIPTION:Description: Bull float, hand trowel, edges, control joints every 5-6ft, broom finish for slip resistance\nAssignee: Challenge Rooter\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:Fresh concrete
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-27@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260121
+DTEND;VALUE=DATE:20260123
+SUMMARY:[Critical] HDPE pipe installation
+DESCRIPTION:Description: Lay 50ft of 4 inch HDPE pipe, connect to building cleanout, connect to city main, proper slope verification\nAssignee: Challenge Rooter\nLabor Hours: 8 - 8\nPriority: Critical\nStatus: Not Started
+LOCATION:Full run from building to city main
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-28@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260128
+SUMMARY:[Critical] Mark utilities with USA 811
+DESCRIPTION:Description: Mark utilities, establish work zone, protect landscaping, set up barricades\nAssignee: Challenge Rooter\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:Property perimeter and excavation path
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-29@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260202
+SUMMARY:[Critical] Property line/city main excavation
+DESCRIPTION:Description: Excavation at rear property line where building sewer connects to city main\nAssignee: Challenge Rooter\nLabor Hours: 6 - 6\nPriority: Critical\nStatus: Not Started
+LOCATION:Rear property line
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-30@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260205
+SUMMARY:[Critical] Rebar/wire mesh placement
+DESCRIPTION:Description: Wire mesh or rebar grid for crack prevention, proper spacing and chair supports\nAssignee: Challenge Rooter\nLabor Hours: 2 - 2\nPriority: Critical\nStatus: Not Started
+LOCATION:Sidewalk formwork
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-31@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260210
+SUMMARY:[Critical] Site assessment and pre-work inspection
+DESCRIPTION:Description: Pre-work inspection of existing sewer lateral\nAssignee: Challenge Rooter\nCost Estimate: $6900.0 - $6900.0\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:757 Santa Ray Avenue property
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-32@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260213
+SUMMARY:[Critical] Site cleanup and restoration - sidewalk final
+DESCRIPTION:Description: Final cleanup, remove barricades, restore pedestrian access, sweep and clean area\nAssignee: Challenge Rooter\nLabor Hours: 3 - 3\nPriority: Critical\nStatus: Not Started
+LOCATION:Entire sidewalk work area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-33@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260218
+SUMMARY:[Critical] Site setup and protection - sidewalk
+DESCRIPTION:Description: Barricades, pedestrian rerouting, protect adjacent property, establish work zone\nAssignee: Challenge Rooter\nCost Estimate: $5800.0 - $5800.0\nLabor Hours: 2 - 2\nPriority: Critical\nStatus: Not Started
+LOCATION:Front sidewalk area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-34@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251112
+SUMMARY:[Critical] Smaller studio - final finish
+DESCRIPTION:Description: Paint stucco (primer + 2 coats), seal all joints/penetrations\nAssignee: General Contractor\nCost Estimate: $200.0 - $200.0\nLabor Hours: 8 - 8\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio entire work area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-35@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251117
+SUMMARY:[Critical] Carport support posts repair
+DESCRIPTION:Description: Repair support posts to eliminate fungus damage, prime paint disturbed areas\nAssignee: Licensed Pest Control\nCost Estimate: $6950.0 - $6950.0\nLabor Hours: 40 - 40\nPriority: Critical\nStatus: Not Started
+LOCATION:Carport support posts
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-36@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251113
+DTEND;VALUE=DATE:20251117
+SUMMARY:[Critical] Smaller studio - remove damaged subfloor
+DESCRIPTION:Description: Cut out 40 sq ft + inspect surrounding joists\nAssignee: General Contractor\nCost Estimate: $100.0 - $100.0\nLabor Hours: 4 - 4\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio french door subfloor
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-37@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251118
+DTEND;VALUE=DATE:20251120
+SUMMARY:[Critical] Smaller studio - mold treatment
+DESCRIPTION:Description: Apply Concrobium Mold Control (2 coats) to all affected surfaces\nAssignee: General Contractor\nCost Estimate: $80.0 - $80.0\nLabor Hours: 5 - 5\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio exposed surfaces
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-38@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251118
+DTEND;VALUE=DATE:20251125
+SUMMARY:[Critical] Exterior window sashes replacement (7 units)
+DESCRIPTION:Description: Remove fungus damaged window sashes, replace with new prime painted sashes\nAssignee: Licensed Pest Control\nCost Estimate: $4950.0 - $4950.0\nLabor Hours: 42 - 42\nPriority: Critical\nStatus: Not Started
+LOCATION:Seven single lite fixed exterior windows
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-39@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251121
+DTEND;VALUE=DATE:20251127
+SUMMARY:[Critical] Smaller studio - structural repair
+DESCRIPTION:Description: Sister damaged crossbeams and joists, replace severely damaged members\nAssignee: General Contractor\nCost Estimate: $475.0 - $475.0\nLabor Hours: 22 - 22\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio structural framing
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-40@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251126
+DTEND;VALUE=DATE:20251202
+SUMMARY:[Critical] Lower rear French doors replacement
+DESCRIPTION:Description: Remove fungus damaged doors/framing/sill, replace with new prime painted wood doors\nAssignee: Licensed Pest Control\nCost Estimate: $12650.0 - $12650.0\nLabor Hours: 32 - 32\nPriority: Critical\nStatus: Not Started
+LOCATION:Lower rear French doors
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-41@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251128
+DTEND;VALUE=DATE:20251202
+SUMMARY:[Critical] Smaller studio - install new subfloor
+DESCRIPTION:Description: Install 3/4in CDX plywood subfloor with moisture barrier\nAssignee: General Contractor\nCost Estimate: $175.0 - $175.0\nLabor Hours: 7 - 7\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio floor
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-42@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251203
+DTEND;VALUE=DATE:20251208
+SUMMARY:[Critical] Smaller studio - exterior siding repair
+DESCRIPTION:Description: Install plywood sheathing, Tyvek wrap, 3-coat stucco with texture matching\nAssignee: General Contractor\nCost Estimate: $375.0 - $375.0\nLabor Hours: 16 - 16\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio exterior wall
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-43@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251203
+DTEND;VALUE=DATE:20251211
+SUMMARY:[Critical] Main unit window sashes replacement (8 units)
+DESCRIPTION:Description: Remove fungus damaged wood window sashes, replace with new prime painted sashes, repair sill/framing\nAssignee: Licensed Pest Control\nCost Estimate: $9850.0 - $9850.0\nLabor Hours: 48 - 48\nPriority: Critical\nStatus: Not Started
+LOCATION:Large bedroom windows and sills
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-44@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251212
+SUMMARY:[Critical] Smaller studio - deck reassembly
+DESCRIPTION:Description: Reinstall deck joists and boards, replace damaged components\nAssignee: General Contractor\nCost Estimate: $350.0 - $350.0\nLabor Hours: 15 - 15\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio deck
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-45@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251212
+DTEND;VALUE=DATE:20251218
+SUMMARY:[Critical] Side French doors replacement
+DESCRIPTION:Description: Remove fungus damaged doors/framing/sill, replace with new prime painted wood doors\nAssignee: Licensed Pest Control\nCost Estimate: $12650.0 - $12650.0\nLabor Hours: 32 - 32\nPriority: Critical\nStatus: Not Started
+LOCATION:Side French doors with inward-sloping sill
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-46@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251218
+SUMMARY:[Critical] Smaller studio deck disassembly
+DESCRIPTION:Description: Carefully remove ~8'x8' deck section, label boards for reuse\nAssignee: General Contractor\nCost Estimate: $300.0 - $300.0\nLabor Hours: 12 - 12\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio french door area
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-47@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251219
+DTEND;VALUE=DATE:20251223
+SUMMARY:[Critical] Smaller studio - remove damaged siding
+DESCRIPTION:Description: Remove stucco and plywood backing (brittle, slow work)\nAssignee: General Contractor\nCost Estimate: $150.0 - $150.0\nLabor Hours: 6 - 6\nPriority: Critical\nStatus: Not Started
+LOCATION:Smaller studio exterior, 40 sq ft
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-48@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251219
+DTEND;VALUE=DATE:20251231
+SUMMARY:[Critical] Side wooden deck and stairs repair
+DESCRIPTION:Description: Repair deck and stairs to eliminate fungus infection\nAssignee: Licensed Pest Control\nCost Estimate: $5650.0 - $5650.0\nLabor Hours: 60 - 60\nPriority: Critical\nStatus: Not Started
+LOCATION:Side wooden deck and stairs
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-49@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260105
+SUMMARY:[Critical] Subfloor and framing repair at french doors
+DESCRIPTION:Description: Repair fungus damage to subflooring and framing\nAssignee: Licensed Pest Control\nCost Estimate: $2750.0 - $2750.0\nLabor Hours: 16 - 16\nPriority: Critical\nStatus: Not Started
+LOCATION:Subfloor adjacent to lower french doors
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-50@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260113
+SUMMARY:[Critical] TIM-BOR fungicide treatment - all locations
+DESCRIPTION:Description: Licensed pest control operator to apply TIM-BOR to all fungus damaged areas and adjacent wood members\nAssignee: Licensed Pest Control\nCost Estimate: $120.0 - $120.0\nLabor Hours: 30 - 50\nPriority: Critical\nStatus: Not Started
+LOCATION:All 13+ fungus remediation locations
+STATUS:TENTATIVE
+PRIORITY:1
+CATEGORIES:Critical Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-51@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+SUMMARY:[High] HVAC - condensation leak repair
+DESCRIPTION:Description: Complete system inspection of condensate drainage, clean and seal vent pipe connections\nAssignee: Licensed HVAC\nCost Estimate: $300.0 - $600.0\nLabor Hours: 4 - 5\nPriority: High\nStatus: Not Started
+LOCATION:Lower unit in-law furnace vent
+STATUS:TENTATIVE
+PRIORITY:3
+CATEGORIES:High Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-52@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+SUMMARY:[High] Incompatible pipe connection repair
+DESCRIPTION:Description: Install dielectric unions between galvanized and copper pipes\nAssignee: Licensed Plumber\nCost Estimate: $200.0 - $400.0\nLabor Hours: 3 - 3\nPriority: High\nStatus: Not Started
+LOCATION:Subarea below upper unit laundry
+STATUS:TENTATIVE
+PRIORITY:3
+CATEGORIES:High Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-53@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+SUMMARY:[High] HVAC - install attic ventilation
+DESCRIPTION:Description: Calculate requirements, install soffit vents and ridge/gable vents\nAssignee: Licensed HVAC\nCost Estimate: $500.0 - $1000.0\nLabor Hours: 8 - 10\nPriority: High\nStatus: Not Started
+LOCATION:Attic space
+STATUS:TENTATIVE
+PRIORITY:3
+CATEGORIES:High Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-54@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251117
+SUMMARY:[High] Water heater T&P valve discharge pipe
+DESCRIPTION:Description: Install code-approved discharge pipe (copper or CPVC)\nAssignee: Licensed Plumber\nCost Estimate: $150.0 - $300.0\nLabor Hours: 2 - 3\nPriority: High\nStatus: Not Started
+LOCATION:Upper unit water heater
+STATUS:TENTATIVE
+PRIORITY:3
+CATEGORIES:High Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-55@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251117
+SUMMARY:[High] HVAC - noisy furnace fan repair
+DESCRIPTION:Description: Diagnostic testing of inducer motor, replace if beyond repair\nAssignee: Licensed HVAC\nCost Estimate: $400.0 - $800.0\nLabor Hours: 4 - 5\nPriority: High\nStatus: Not Started
+LOCATION:Lower unit furnace inducer motor
+STATUS:TENTATIVE
+PRIORITY:3
+CATEGORIES:High Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-56@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251118
+DTEND;VALUE=DATE:20251119
+SUMMARY:[High] Water heater drain pans installation
+DESCRIPTION:Description: Install code-approved drain pans under both water heaters\nAssignee: Licensed Plumber\nCost Estimate: $300.0 - $600.0\nLabor Hours: 7 - 7\nPriority: High\nStatus: Not Started
+LOCATION:Upper and lower unit water heaters
+STATUS:TENTATIVE
+PRIORITY:3
+CATEGORIES:High Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-57@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251120
+SUMMARY:[Low] Floor refinishing - multiple locations
+DESCRIPTION:Description: Sand, stain, and refinish hardwood floors in main living areas. Requires 7-10 calendar days due to cure times.\nAssignee: Flooring Specialist\nCost Estimate: $1000.0 - $2500.0\nLabor Hours: 60 - 75\nPriority: Low\nStatus: Not Started
+LOCATION:Multiple locations - main unit
+STATUS:TENTATIVE
+PRIORITY:9
+CATEGORIES:Low Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-58@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251118
+SUMMARY:[Low] Install AFCI protection
+DESCRIPTION:Description: Replace standard breakers with combination AFCI breakers\nAssignee: Licensed Electrician\nCost Estimate: $600.0 - $1200.0\nLabor Hours: 10 - 23\nPriority: Low\nStatus: Not Started
+LOCATION:Throughout building per electrical code
+STATUS:TENTATIVE
+PRIORITY:9
+CATEGORIES:Low Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-59@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251124
+SUMMARY:[Low] Install additional receptacles
+DESCRIPTION:Description: Install new receptacle circuits as needed\nAssignee: Licensed Electrician\nCost Estimate: $400.0 - $800.0\nLabor Hours: 15 - 40\nPriority: Low\nStatus: Not Started
+LOCATION:Various locations
+STATUS:TENTATIVE
+PRIORITY:9
+CATEGORIES:Low Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-60@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251125
+DTEND;VALUE=DATE:20251127
+SUMMARY:[Low] Upgrade ungrounded receptacles
+DESCRIPTION:Description: Install new grounded receptacles or GFCI where grounding not available\nAssignee: Licensed Electrician\nCost Estimate: $800.0 - $1500.0\nLabor Hours: 12 - 26\nPriority: Low\nStatus: Not Started
+LOCATION:Multiple locations throughout building
+STATUS:TENTATIVE
+PRIORITY:9
+CATEGORIES:Low Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-61@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251113
+SUMMARY:[Medium] Bay window installation - small bedroom
+DESCRIPTION:Description: Install JELD-WEN 71.5 in. x 59.5 in. bay window in small bedroom\nAssignee: Window Contractor\nCost Estimate: $1918.0 - $1918.0\nLabor Hours: 16 - 24\nPriority: Medium\nStatus: In Progress
+LOCATION:Small bedroom
+STATUS:CONFIRMED
+PRIORITY:5
+CATEGORIES:Medium Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-62@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251126
+DTEND;VALUE=DATE:20251127
+SUMMARY:[Medium] Replace P-trap - 1/2 bathroom
+DESCRIPTION:Description: Replace rusted P-trap with PVC/ABS plastic P-trap assembly\nAssignee: Paul (DIY)\nCost Estimate: $30.0 - $60.0\nLabor Hours: 1 - 2\nPriority: Medium\nStatus: Not Started
+LOCATION:1/2 bathroom sink
+STATUS:TENTATIVE
+PRIORITY:5
+CATEGORIES:Medium Priority
+END:VEVENT
+
+BEGIN:VEVENT
+UID:santa-ray-task-63@property-repairs.local
+DTSTAMP:20251108T195639Z
+DTSTART;VALUE=DATE:20251128
+DTEND;VALUE=DATE:20251201
+SUMMARY:[Medium] Replace P-trap - lower bathroom
+DESCRIPTION:Description: Replace rusted P-trap with PVC/ABS plastic P-trap assembly\nAssignee: Paul (DIY)\nLabor Hours: 1 - 2\nPriority: Medium\nStatus: Not Started
+LOCATION:Lower bathroom sink
+STATUS:TENTATIVE
+PRIORITY:5
+CATEGORIES:Medium Priority
+END:VEVENT
+END:VCALENDAR

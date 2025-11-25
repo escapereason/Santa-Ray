@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Santa Ray Property - Project Gantt Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/frappe-gantt/dist/frappe-gantt.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/frappe-gantt/dist/frappe-gantt.css"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 100;
+            padding: 10px 0;
+            margin: 0 0 20px 0;
+        }
+        .info {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .warning-section {
+            background: #fff3cd !important;
+        }
+        .legend {
+            margin: 20px 0;
+            position: sticky;
+            top: 60px;
+            background: white;
+            z-index: 99;
+            padding: 10px 0;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .legend-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        /* Gantt container with scrolling */
+        #gantt-wrapper {
+            position: relative;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: auto;
+            max-height: 70vh;
+        }
+
+        /* Custom priority colors for task bars */
+        .gantt .bar.critical {
+            fill: #d32f2f;
+        }
+        .gantt .bar.high {
+            fill: #f57c00;
+        }
+        .gantt .bar.medium {
+            fill: #fbc02d;
+        }
+        .gantt .bar.low {
+            fill: #388e3c;
+        }
+
+        /* Highlight tasks needing dates */
+        .gantt .bar.needs-dates {
+            stroke: #ff9800;
+            stroke-width: 2;
+            stroke-dasharray: 5,5;
+        }
+
+        /* Style dependency arrows */
+        .gantt .arrow {
+            stroke: #666;
+            stroke-width: 1.4px;
+        }
+
+        /* Today indicator line */
+        .today-line {
+            stroke: #2196F3;
+            stroke-width: 2;
+            stroke-dasharray: 5,5;
+            opacity: 0.7;
+        }
+
+        /* Toolbar styling */
+        .view-toolbar {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            position: sticky;
+            top: 140px;
+            z-index: 98;
+        }
+        .view-toolbar button {
+            padding: 8px 15px;
+            margin-right: 5px;
+            border: 1px solid #ccc;
+            background: white;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .view-toolbar button:hover {
+            background: #e0e0e0;
+        }
+        .view-toolbar button.active {
+            background: #2196F3;
+            color: white;
+            border-color: #2196F3;
+        }
+
+        /* Table styling */
+        table {
+            font-size: 14px;
+        }
+        th {
+            font-weight: 600;
+        }
+
+        /* Scroll indicator */
+        .scroll-hint {
+            text-align: center;
+            padding: 10px;
+            background: #e3f2fd;
+            color: #1976d2;
+            font-weight: 500;
+            margin-bottom: 10px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏗️ Santa Ray Property - Project Schedule</h1>
+
+    <div class="info">
+        <p><strong>Generated:</strong> 2025-11-08 19:33</p>
+        <p><strong>Showing:</strong> 64 active tasks (excluding completed)</p>
+        <p><strong>Sorted:</strong> Earliest start date at top → Latest at bottom</p>
+        <p><strong>Interactive:</strong> Click and drag tasks to reschedule. Scroll horizontally/vertically to navigate timeline.</p>
+    </div>
+
+    <div class="legend">
+        <strong>Priority Colors:</strong>
+        <div class="legend-item">
+            <span class="legend-box" style="background: #d32f2f;"></span> Critical
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background: #f57c00;"></span> High
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background: #fbc02d;"></span> Medium
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background: #388e3c;"></span> Low
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background: white; border: 2px dashed #ff9800;"></span> Needs Dates
+        </div>
+        <div class="legend-item">
+            <span style="display: inline-block; width: 20px; height: 2px; background: #2196F3; margin-right: 5px; vertical-align: middle;"></span> Today
+        </div>
+    </div>
+
+    <div class="view-toolbar">
+        <strong>Timeline View:</strong>
+        <button onclick="changeView('Day', this)" class="active" id="btn-Day">Day</button>
+        <button onclick="changeView('Week', this)">Week</button>
+        <button onclick="changeView('Month', this)">Month</button>
+    </div>
+
+    <div class="scroll-hint">
+        ⬅️ Scroll horizontally to see timeline | Scroll vertically to see all tasks ⬇️
+    </div>
+
+    <div id="gantt-wrapper">
+        <svg id="gantt"></svg>
+    </div>
+
+    <script>
+        const tasks = [
+        {
+                "id": "task_73",
+                "name": "Bay window installation - small bedroom",
+                "start": "2025-11-08",
+                "end": "2025-11-10",
+                "progress": 50,
+                "custom_class": "medium",
+                "dependencies": ""
+        },
+        {
+                "id": "task_74",
+                "name": "Floor refinishing - multiple locations",
+                "start": "2025-11-11",
+                "end": "2025-11-13",
+                "progress": 0,
+                "custom_class": "low",
+                "dependencies": ""
+        },
+        {
+                "id": "task_1",
+                "name": "Site assessment and pre-work inspection",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_2",
+                "name": "Mark utilities with USA 811",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_3",
+                "name": "Building cleanout excavation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_4",
+                "name": "Property line/city main excavation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_5",
+                "name": "50ft trench excavation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_6",
+                "name": "HDPE pipe installation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_7",
+                "name": "Backfill and compaction",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_8",
+                "name": "EBMUD compliance testing",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_9",
+                "name": "Final grading and site restoration - sewer",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_10",
+                "name": "Documentation and certification - sewer",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_11",
+                "name": "Site setup and protection - sidewalk",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_12",
+                "name": "Concrete demolition (112 sq ft)",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_13",
+                "name": "Debris removal and disposal - sidewalk",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_14",
+                "name": "Base preparation and grading - sidewalk",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_15",
+                "name": "Formwork installation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_16",
+                "name": "Rebar/wire mesh placement",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_17",
+                "name": "Concrete delivery coordination",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_8"
+        },
+        {
+                "id": "task_18",
+                "name": "Concrete pour (1.4 cu yd)",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_15"
+        },
+        {
+                "id": "task_19",
+                "name": "Finishing work - sidewalk",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_18"
+        },
+        {
+                "id": "task_20",
+                "name": "Curing preparation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_21",
+                "name": "24-hour concrete cure wait",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_22",
+                "name": "Form removal",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_21"
+        },
+        {
+                "id": "task_23",
+                "name": "ADA compliance verification",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_24",
+                "name": "Site cleanup and restoration - sidewalk final",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_25",
+                "name": "Documentation and certification - sidewalk",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_29",
+                "name": "Install junction box cover",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_30",
+                "name": "Protect exposed wiring - utility room",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_31",
+                "name": "Protect exposed wiring - stairwell",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_34",
+                "name": "Install approved snap-in filler plates",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_35",
+                "name": "De-energize affected circuits",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_60",
+                "name": "Install CO detector - lower unit",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_61",
+                "name": "Install CO detector - in-law",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_62",
+                "name": "Replace crushed dryer vent duct",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_69",
+                "name": "Loose toilet repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_43",
+                "name": "Carport support posts repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_44",
+                "name": "Side wooden deck and stairs repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_45",
+                "name": "Main unit window sashes replacement (8 units)",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_46",
+                "name": "Subfloor and framing repair at french doors",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_47",
+                "name": "Side French doors replacement",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_48",
+                "name": "Exterior window sashes replacement (7 units)",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_49",
+                "name": "Lower rear French doors replacement",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_50",
+                "name": "TIM-BOR fungicide treatment - all locations",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_52"
+        },
+        {
+                "id": "task_51",
+                "name": "Smaller studio deck disassembly",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_52",
+                "name": "Smaller studio - remove damaged siding",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_51"
+        },
+        {
+                "id": "task_53",
+                "name": "Smaller studio - remove damaged subfloor",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_54",
+                "name": "Smaller studio - mold treatment",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_53"
+        },
+        {
+                "id": "task_55",
+                "name": "Smaller studio - structural repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_54"
+        },
+        {
+                "id": "task_56",
+                "name": "Smaller studio - install new subfloor",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_55"
+        },
+        {
+                "id": "task_57",
+                "name": "Smaller studio - exterior siding repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_56"
+        },
+        {
+                "id": "task_58",
+                "name": "Smaller studio - deck reassembly",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": "task_57"
+        },
+        {
+                "id": "task_59",
+                "name": "Smaller studio - final finish",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "critical needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_63",
+                "name": "HVAC - condensation leak repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "high needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_64",
+                "name": "HVAC - noisy furnace fan repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "high needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_65",
+                "name": "HVAC - install attic ventilation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "high needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_70",
+                "name": "Incompatible pipe connection repair",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "high needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_71",
+                "name": "Water heater T&P valve discharge pipe",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "high needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_72",
+                "name": "Water heater drain pans installation",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "high needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_66",
+                "name": "Replace P-trap - 1/2 bathroom",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "medium needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_67",
+                "name": "Replace P-trap - lower bathroom",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "medium needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_36",
+                "name": "Upgrade ungrounded receptacles",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "low needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_37",
+                "name": "Install AFCI protection",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "low needs-dates",
+                "dependencies": ""
+        },
+        {
+                "id": "task_38",
+                "name": "Install additional receptacles",
+                "start": "2025-11-08",
+                "end": "2025-11-15",
+                "progress": 0,
+                "custom_class": "low needs-dates",
+                "dependencies": ""
+        }
+];
+        const todayDate = new Date('2025-11-08');
+
+        // Initialize Gantt chart
+        const gantt = new Gantt("#gantt", tasks, {
+            view_mode: 'Day',
+            bar_height: 40,
+            column_width: 30,
+            arrow_curve: 8,
+            move_dependencies: true,
+            on_click: function (task) {
+                console.log('Task clicked:', task);
+            },
+            on_date_change: function(task, start, end) {
+                console.log('Task rescheduled:', task.name, start, end);
+            },
+            on_progress_change: function(task, progress) {
+                console.log('Progress updated:', task.name, progress);
+            }
+        });
+
+        // View mode switcher
+        function changeView(mode, buttonElement) {
+            gantt.change_view_mode(mode);
+
+            // Update button styles
+            document.querySelectorAll('.view-toolbar button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            buttonElement.classList.add('active');
+        }
+
+        // Auto-scroll to current date
+        function scrollToToday() {
+            const wrapper = document.getElementById('gantt-wrapper');
+
+            // Get the gantt SVG dimensions
+            const svg = document.getElementById('gantt');
+            const svgWidth = svg.getBBox().width;
+
+            // Calculate approximate position of today
+            // This is a rough calculation - adjust based on your timeline
+            const scrollPosition = svgWidth * 0.3; // Start at ~30% to show some past context
+
+            // Scroll horizontally to show current date
+            wrapper.scrollLeft = scrollPosition;
+        }
+
+        // Call auto-scroll after a short delay to ensure chart is rendered
+        setTimeout(scrollToToday, 500);
+
+        // Add visual indicator for today
+        window.addEventListener('load', function() {
+            // You could add a vertical line for "today" here if needed
+            // This would require adding an SVG element to the Frappe Gantt output
+        });
+    </script>
+
+    <div class="info" style="margin-top: 20px;">
+        <h3>Features:</h3>
+        <ul>
+            <li><strong>Complete Task List:</strong> All 64 active tasks shown, sorted by earliest start date first</li>
+            <li><strong>Dependency Arrows:</strong> Lines show task relationships from prerequisite tasks to dependent tasks</li>
+            <li><strong>Interactive Editing:</strong> Drag task bars to reschedule</li>
+            <li><strong>Auto-Scheduling:</strong> Dependent tasks move when prerequisites change</li>
+            <li><strong>Multiple Views:</strong> Use buttons above to switch timeline scale (Day, Week, Month)</li>
+            <li><strong>Scrollable Timeline:</strong> Scroll horizontally to see full timeline, vertically to see all tasks</li>
+            <li><strong>Auto-Scroll:</strong> Page automatically scrolls to show current date on load</li>
+            <li><strong>Sticky Controls:</strong> Title, legend, and view controls stay visible while scrolling</li>
+        </ul>
+        <h3>How to Read:</h3>
+        <ul>
+            <li><strong>Task Bars:</strong> Horizontal bars show duration (start to end date)</li>
+            <li><strong>Task Names:</strong> Shown on the left side of each bar</li>
+            <li><strong>Dependencies:</strong> Arrows point from prerequisite → dependent task</li>
+            <li><strong>Colors:</strong> Red (Critical), Orange (High), Yellow (Medium), Green (Low)</li>
+            <li><strong>Dashed Border:</strong> Tasks with placeholder dates that need actual dates assigned</li>
+            <li><strong>Sort Order:</strong> Tasks are sorted with earliest start dates at the top</li>
+        </ul>
+        <h3>Next Steps:</h3>
+        <ul>
+            <li>Use <code>python3 tools/query_tasks.py</code> to view detailed task information</li>
+            <li>Update tasks without dates (see section below if applicable)</li>
+            <li>Click tasks in the chart to see console details (open browser DevTools)</li>
+            <li>Drag tasks to experiment with scheduling scenarios</li>
+        </ul>
+    </div>
+
+    
+    <div class="info warning-section" style="margin-top: 30px; background: #fff3cd; border-left: 4px solid #ffc107;">
+        <h3>⚠️ Tasks Needing Date Assignment (62 tasks)</h3>
+        <p>These tasks have been assigned placeholder dates (starting today, 7-day duration) to appear in the timeline.
+        They are highlighted with a dashed border in the chart above.</p>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+            <thead>
+                <tr style="background: #f8f9fa; border-bottom: 2px solid #dee2e6;">
+                    <th style="padding: 10px; text-align: left;">Task Name</th>
+                    <th style="padding: 10px; text-align: left;">Priority</th>
+                    <th style="padding: 10px; text-align: left;">Assignee</th>
+                    <th style="padding: 10px; text-align: left;">Placeholder Dates</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Site assessment and pre-work inspection</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Mark utilities with USA 811</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Building cleanout excavation</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Property line/city main excavation</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">50ft trench excavation</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">HDPE pipe installation</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Backfill and compaction</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">EBMUD compliance testing</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Final grading and site restoration - sewer</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Documentation and certification - sewer</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Site setup and protection - sidewalk</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Concrete demolition (112 sq ft)</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Debris removal and disposal - sidewalk</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Base preparation and grading - sidewalk</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Formwork installation</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Rebar/wire mesh placement</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Concrete delivery coordination</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Concrete pour (1.4 cu yd)</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Finishing work - sidewalk</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Curing preparation</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">24-hour concrete cure wait</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Unassigned</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Form removal</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">ADA compliance verification</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Site cleanup and restoration - sidewalk final</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Documentation and certification - sidewalk</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Challenge Rooter</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Install junction box cover</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Protect exposed wiring - utility room</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Protect exposed wiring - stairwell</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Install approved snap-in filler plates</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Electrician</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">De-energize affected circuits</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Electrician</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Install CO detector - lower unit</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Install CO detector - in-law</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Replace crushed dryer vent duct</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Loose toilet repair</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Plumber</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Carport support posts repair</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Side wooden deck and stairs repair</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Main unit window sashes replacement (8 units)</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Subfloor and framing repair at french doors</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Side French doors replacement</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Exterior window sashes replacement (7 units)</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Lower rear French doors replacement</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">TIM-BOR fungicide treatment - all locations</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">Licensed Pest Control</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio deck disassembly</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - remove damaged siding</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - remove damaged subfloor</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - mold treatment</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - structural repair</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - install new subfloor</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - exterior siding repair</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - deck reassembly</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Smaller studio - final finish</td>
+                    <td style="padding: 10px;">Critical</td>
+                    <td style="padding: 10px;">General Contractor</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">HVAC - condensation leak repair</td>
+                    <td style="padding: 10px;">High</td>
+                    <td style="padding: 10px;">Licensed HVAC</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">HVAC - noisy furnace fan repair</td>
+                    <td style="padding: 10px;">High</td>
+                    <td style="padding: 10px;">Licensed HVAC</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">HVAC - install attic ventilation</td>
+                    <td style="padding: 10px;">High</td>
+                    <td style="padding: 10px;">Licensed HVAC</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Incompatible pipe connection repair</td>
+                    <td style="padding: 10px;">High</td>
+                    <td style="padding: 10px;">Licensed Plumber</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Water heater T&P valve discharge pipe</td>
+                    <td style="padding: 10px;">High</td>
+                    <td style="padding: 10px;">Licensed Plumber</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Water heater drain pans installation</td>
+                    <td style="padding: 10px;">High</td>
+                    <td style="padding: 10px;">Licensed Plumber</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Replace P-trap - 1/2 bathroom</td>
+                    <td style="padding: 10px;">Medium</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Replace P-trap - lower bathroom</td>
+                    <td style="padding: 10px;">Medium</td>
+                    <td style="padding: 10px;">Paul (DIY)</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Upgrade ungrounded receptacles</td>
+                    <td style="padding: 10px;">Low</td>
+                    <td style="padding: 10px;">Licensed Electrician</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Install AFCI protection</td>
+                    <td style="padding: 10px;">Low</td>
+                    <td style="padding: 10px;">Licensed Electrician</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+                <tr style="border-bottom: 1px solid #dee2e6;">
+                    <td style="padding: 10px;">Install additional receptacles</td>
+                    <td style="padding: 10px;">Low</td>
+                    <td style="padding: 10px;">Licensed Electrician</td>
+                    <td style="padding: 10px;">2025-11-08 to 2025-11-15</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+</html>

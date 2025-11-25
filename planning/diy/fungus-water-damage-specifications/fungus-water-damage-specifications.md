@@ -371,12 +371,47 @@
 ---
 
 ### 13. LOWER REAR FRENCH DOORS
-**Reference:** Pest Report Finding 11H  
-**Location:** Lower rear French doors  
-**Finding:** "Fungus damaged and decayed doors"  
-**Work Required:** "GT Inspects Inc. to remove fungus damaged doors/framing and sill, replace with new prime painted wood doors, framing and sill of like design"  
-**Cost Estimate:** $12,650.00  
+**Reference:** Pest Report Finding 11H
+**Location:** Lower rear French doors
+**Finding:** "Fungus damaged and decayed doors"
+**Work Required:** "GT Inspects Inc. to remove fungus damaged doors/framing and sill, replace with new prime painted wood doors, framing and sill of like design"
+**Cost Estimate:** $12,650.00
 **Priority:** 🟠 Critical
+
+[Back to Table of Contents](#table-of-contents)
+
+---
+
+### 14. SMALLER STUDIO FRENCH DOOR AREA - EMERGENCY DISCOVERY
+**Reference:** Emergency discovery during door installation, October 2025
+**Location:** Subfloor, siding, and structural framing at smaller studio french door
+**Finding:** "Extensive mold damage discovered during door installation - 40 sq ft siding, 40 sq ft subfloor, multiple crossbeams and floor joists affected"
+**Work Required:** Complete mold remediation, structural repair, siding replacement, deck disassembly/reassembly
+**Cost Estimate:** $6,156
+**Priority:** 🔴 Critical - Emergency discovery
+
+**Detailed Work Scope:**
+1. **Deck Disassembly** (12 hrs): Remove ~8'x8' deck section for access
+2. **Mold Remediation** (16 hrs): Professional containment and treatment with Concrobium
+3. **Structural Repairs** (29 hrs): Sister/replace damaged crossbeams and floor joists
+4. **Subfloor Replacement** (9 hrs): Install 40 sq ft new CDX plywood with moisture barrier
+5. **Exterior Siding** (21 hrs): Replace 40 sq ft stucco-on-plywood siding (3-coat system)
+6. **Deck Reassembly** (22 hrs): Reinstall deck with waterproofing at siding junction
+7. **Finishing** (10 hrs): Paint, seal, final waterproofing
+
+**Total Labor:** 134 hours @ $25/hr = $3,350
+**Total Materials:** $2,003 (includes 10-15% waste factors)
+**Contingency:** $803 (15%)
+**Timeline:** 2-3 weeks
+
+**See comprehensive breakdown:** [Smaller Studio Mold Remediation Document](../../contractor/smaller-studio-mold-remediation.md)
+
+**Critical Notes:**
+- This damage was NOT included in original pest inspection
+- Deck disassembly required for access to damaged areas
+- Multiple structural members (crossbeams, joists) require sistering or replacement
+- Stucco repair requires 3-coat traditional system with cure times between coats
+- Moisture source investigation critical to prevent recurrence
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -964,7 +999,9 @@
 | **Railings and Balusters** | $640.00 | Cedar/Redwood for safe, smooth handrails |
 | **Blocking and Miscellaneous** | $467.50 | Utility lumber and blocking |
 
-### **GRAND TOTAL WOOD MATERIALS: $12,146.00**
+### **GRAND TOTAL WOOD MATERIALS: $13,149.00**
+
+**Note:** Includes additional $1,003 for smaller studio emergency discovery (lumber and structural materials). Mold remediation supplies ($303) and other non-lumber materials ($697) tracked separately in [Smaller Studio Mold Remediation](../../contractor/smaller-studio-mold-remediation.md).
 
 ---
 
